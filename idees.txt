@@ -1,0 +1,21 @@
+// TODO :
+- tester avec historique precis (chaque agent)
+- tester avec aggrege seulement
+
+// Evolution 
+With contant population:
+ - algo ge
+ - evolution of the guilt aversion
+ - when agent has money < 0, remove it ... possible ?
+
+
+
+ // Pour Philippe
+ - simplifier la notion de player
+ - faire plusieurs Skills : 
+     - player_with_memory
+     - player_with_memory_simple
+     - player_with_emotion
+- faire des :
+     - playerRandom
+     - playerTicTac 

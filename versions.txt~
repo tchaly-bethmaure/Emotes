@@ -1,0 +1,57 @@
+emotesV1.gaml
+  - implementation of the dilemna prisoner game
+  - creation of 2 agents with same guilt aversion
+  - the history is a maps : each element is now a pair 
+        agent::[nbCoop, totalInter]
+
+emotesV2.gaml
+  - modification of the history map : each element is now a pair 
+        agent::[nbCoop, totalInter, utilityGained]
+  - creation of 20 agents with guiltAversion between 0 and 2 by step of 0.1
+  - addition of debug variables
+  - save data in csv files
+ 
+emotesV3.gaml
+  - introduction of the step number parameter at which the simulation whould be saved
+  - introduction of the Rawl's ideality
+  - displayParameters
+  
+emotesV3_ESSA13.gaml    ---- Article ESSA 13 ----
+  - ajout pair d'agent to display
+  - cycle a partir duquel on observe + le fichier dans lequel on le met
+
+emotesV4.gaml
+  - simplification des save
+  - reflex global : computeEquilibriumPoint et computeEsymptotPoint   
+  - mode batch
+  - parametres guiltAversionInitMax, guiltAversionInitMin, guiltAversionStep fonctionnels
+  - debut de display sous forme de grille
+  
+emotesV5.gaml
+  - split en mainV5.gaml et peopleV5.gaml 
+  - graphical display of the state of the game on a graphic grid.
+  
+ ================= Introduction of Dynamics ============= 
+  
+emotesV6.gaml
+  - introduction of the replicator dynamics:
+    * strategy is constant
+    * guiltAversion is now a variable
+    * the population now evolves depending on money owned
+  - evolve reflex has been implemented:
+    * Each stepEvol steps: 
+      - we choose 2*nbAgtsEvols
+      - compare their payoff, the higher gives his strategy and gA to the lower
+      - agents' guilt Aversion is reset
+      
+emotesV7 :
+  - modèle separated in several files (2 kinds of people and the various experiments)
+  
+emotesV8 : (19/02/14)
+  - cleaning of people agents
+
+emotesV8 : (4/04/14)
+  - created a species for iterated game of prisonner's dilemma
+  - new experiment : sequencial game execution, based on a .csv file containing some configuration (different combinaison of gain), it loads the file and sequentialy simulate each configuration of the PD game a .csv snap shot of agents states is taken at the end of each simulation.
+  - model : configFileHandler, handle .csv files containing PD game configurations (load them into one of the sequential experiment variables).
+  - new functions that let mechanics of the model easier to understand (reset_game(), create_game(), ...)
