@@ -1,0 +1,515 @@
+strict digraph  {
+	"6 4 3 0"	 [color=yellow,
+		style=filled];
+	BGHJ	 [color=green,
+		style=filled];
+	"6 4 3 0" -> BGHJ;
+	"15 14 8 2"	 [color=yellow,
+		style=filled];
+	CEGHJ	 [color=green,
+		style=filled];
+	"15 14 8 2" -> CEGHJ;
+	"14 12 8 1"	 [color=yellow,
+		style=filled];
+	AEGHJ	 [color=green,
+		style=filled];
+	"14 12 8 1" -> AEGHJ;
+	"15 12 9 0"	 [color=yellow,
+		style=filled];
+	AGHIJ	 [color=green,
+		style=filled];
+	"15 12 9 0" -> AGHIJ;
+	"16 12 9 3"	 [color=yellow,
+		style=filled];
+	"16 12 9 3" -> CEGHJ;
+	"16 12 9 0"	 [color=yellow,
+		style=filled];
+	"16 12 9 0" -> AGHIJ;
+	"16 14 11 3"	 [color=yellow,
+		style=filled];
+	"16 14 11 3" -> AEGHJ;
+	"16 14 12 0"	 [color=yellow,
+		style=filled];
+	"16 14 12 0" -> AGHIJ;
+	"10 9 8 2"	 [color=yellow,
+		style=filled];
+	AGHJ	 [color=green,
+		style=filled];
+	"10 9 8 2" -> AGHJ;
+	"4 3 2 0"	 [color=yellow,
+		style=filled];
+	"4 3 2 0" -> BGHJ;
+	"5 4 3 1"	 [color=yellow,
+		style=filled];
+	BEGHJ	 [color=green,
+		style=filled];
+	"5 4 3 1" -> BEGHJ;
+	"5 4 3 0"	 [color=yellow,
+		style=filled];
+	"5 4 3 0" -> AGHIJ;
+	"12 10 8 1"	 [color=yellow,
+		style=filled];
+	"12 10 8 1" -> AGHIJ;
+	"10 9 8 6"	 [color=yellow,
+		style=filled];
+	"10 9 8 6" -> BEGHJ;
+	"14 12 8 3"	 [color=yellow,
+		style=filled];
+	"14 12 8 3" -> CEGHJ;
+	"10 8 6 2"	 [color=yellow,
+		style=filled];
+	"10 8 6 2" -> BEGHJ;
+	"12 10 8 4"	 [color=yellow,
+		style=filled];
+	"12 10 8 4" -> BEGHJ;
+	"16 15 13 9"	 [color=yellow,
+		style=filled];
+	"16 15 13 9" -> AEGHJ;
+	"10 9 8 3"	 [color=yellow,
+		style=filled];
+	"10 9 8 3" -> AEGHJ;
+	"10 9 8 0"	 [color=yellow,
+		style=filled];
+	"10 9 8 0" -> AGHIJ;
+	"10 9 8 1"	 [color=yellow,
+		style=filled];
+	"10 9 8 1" -> AGHIJ;
+	"11 10 9 5"	 [color=yellow,
+		style=filled];
+	"11 10 9 5" -> AEGHJ;
+	"10 9 8 4"	 [color=yellow,
+		style=filled];
+	"10 9 8 4" -> AEGHJ;
+	"10 9 8 5"	 [color=yellow,
+		style=filled];
+	"10 9 8 5" -> AEGHJ;
+	"14 12 11 8"	 [color=yellow,
+		style=filled];
+	"14 12 11 8" -> BEGHJ;
+	"16 13 11 0"	 [color=yellow,
+		style=filled];
+	"16 13 11 0" -> AGHIJ;
+	"16 13 11 3"	 [color=yellow,
+		style=filled];
+	"16 13 11 3" -> AEGHJ;
+	"16 15 13 2"	 [color=yellow,
+		style=filled];
+	"16 15 13 2" -> AGHIJ;
+	"16 13 11 4"	 [color=yellow,
+		style=filled];
+	"16 13 11 4" -> AEGHJ;
+	"16 15 13 7"	 [color=yellow,
+		style=filled];
+	"16 15 13 7" -> AEGHJ;
+	"14 9 7 1"	 [color=yellow,
+		style=filled];
+	"14 9 7 1" -> CEGHJ;
+	"16 15 13 0"	 [color=yellow,
+		style=filled];
+	"16 15 13 0" -> AGHIJ;
+	"9 6 5 1"	 [color=yellow,
+		style=filled];
+	"9 6 5 1" -> BEGHJ;
+	"9 6 5 0"	 [color=yellow,
+		style=filled];
+	"9 6 5 0" -> AGHIJ;
+	"12 11 7 0"	 [color=yellow,
+		style=filled];
+	"12 11 7 0" -> AGHIJ;
+	"15 14 10 3"	 [color=yellow,
+		style=filled];
+	"15 14 10 3" -> AEGHJ;
+	"13 12 10 1"	 [color=yellow,
+		style=filled];
+	"13 12 10 1" -> AGHIJ;
+	"9 7 6 3"	 [color=yellow,
+		style=filled];
+	"9 7 6 3" -> BEGHJ;
+	"9 7 6 2"	 [color=yellow,
+		style=filled];
+	"9 7 6 2" -> AEGHJ;
+	"10 8 5 0"	 [color=yellow,
+		style=filled];
+	"10 8 5 0" -> BGHJ;
+	"9 7 6 0"	 [color=yellow,
+		style=filled];
+	"9 7 6 0" -> AGHIJ;
+	"16 15 13 4"	 [color=yellow,
+		style=filled];
+	"16 15 13 4" -> AEGHJ;
+	"10 9 7 4"	 [color=yellow,
+		style=filled];
+	"10 9 7 4" -> BEGHJ;
+	"10 9 7 1"	 [color=yellow,
+		style=filled];
+	"10 9 7 1" -> AGHIJ;
+	"10 9 7 0"	 [color=yellow,
+		style=filled];
+	"10 9 7 0" -> AGHIJ;
+	"10 9 7 3"	 [color=yellow,
+		style=filled];
+	"10 9 7 3" -> AEGHJ;
+	"10 9 7 2"	 [color=yellow,
+		style=filled];
+	"10 9 7 2" -> AEGHJ;
+	"14 12 10 3"	 [color=yellow,
+		style=filled];
+	"14 12 10 3" -> AEGHJ;
+	"14 12 10 2"	 [color=yellow,
+		style=filled];
+	"14 12 10 2" -> AGHJ;
+	"8 7 4 0"	 [color=yellow,
+		style=filled];
+	"8 7 4 0" -> BGHJ;
+	"14 11 10 6"	 [color=yellow,
+		style=filled];
+	"14 11 10 6" -> BEGHJ;
+	"8 5 4 0"	 [color=yellow,
+		style=filled];
+	"8 5 4 0" -> BGHJ;
+	"14 12 7 1"	 [color=yellow,
+		style=filled];
+	"14 12 7 1" -> CEGHJ;
+	"13 12 8 2"	 [color=yellow,
+		style=filled];
+	"13 12 8 2" -> AEGHJ;
+	"15 13 9 2"	 [color=yellow,
+		style=filled];
+	"15 13 9 2" -> AEGHJ;
+	BGHJ -> BEGHJ;
+	"10 7 6 2"	 [color=yellow,
+		style=filled];
+	"10 7 6 2" -> BEGHJ;
+	"16 14 12 2"	 [color=yellow,
+		style=filled];
+	"16 14 12 2" -> AGHIJ;
+	"10 7 6 0"	 [color=yellow,
+		style=filled];
+	"10 7 6 0" -> AGHIJ;
+	"10 7 6 1"	 [color=yellow,
+		style=filled];
+	"10 7 6 1" -> AEGHJ;
+	"16 14 12 7"	 [color=yellow,
+		style=filled];
+	"16 14 12 7" -> AEGHJ;
+	"14 13 10 4"	 [color=yellow,
+		style=filled];
+	"14 13 10 4" -> AEGHJ;
+	"12 9 7 0"	 [color=yellow,
+		style=filled];
+	"12 9 7 0" -> AGHIJ;
+	"9 8 4 0"	 [color=yellow,
+		style=filled];
+	"9 8 4 0" -> CEGHJ;
+	"11 8 6 0"	 [color=yellow,
+		style=filled];
+	"11 8 6 0" -> AGHIJ;
+	"13 11 7 1"	 [color=yellow,
+		style=filled];
+	"13 11 7 1" -> BEGHJ;
+	"13 11 7 2"	 [color=yellow,
+		style=filled];
+	"13 11 7 2" -> CEGHJ;
+	"14 13 8 0"	 [color=yellow,
+		style=filled];
+	"14 13 8 0" -> AGHIJ;
+	"12 11 8 2"	 [color=yellow,
+		style=filled];
+	"12 11 8 2" -> AEGHJ;
+	"14 11 9 3"	 [color=yellow,
+		style=filled];
+	"14 11 9 3" -> AEGHJ;
+	"14 11 9 1"	 [color=yellow,
+		style=filled];
+	"14 11 9 1" -> AGHIJ;
+	"15 11 8 2"	 [color=yellow,
+		style=filled];
+	"15 11 8 2" -> CEGHJ;
+	"15 12 8 1"	 [color=yellow,
+		style=filled];
+	"15 12 8 1" -> BEGHJ;
+	"13 12 10 4"	 [color=yellow,
+		style=filled];
+	"13 12 10 4" -> AEGHJ;
+	"12 11 7 2"	 [color=yellow,
+		style=filled];
+	"12 11 7 2" -> BEGHJ;
+	"16 15 10 5"	 [color=yellow,
+		style=filled];
+	"16 15 10 5" -> CEGHJ;
+	"8 6 5 0"	 [color=yellow,
+		style=filled];
+	"8 6 5 0" -> AGHIJ;
+	"8 6 5 1"	 [color=yellow,
+		style=filled];
+	"8 6 5 1" -> AEGHJ;
+	"8 6 5 2"	 [color=yellow,
+		style=filled];
+	"8 6 5 2" -> BEGHJ;
+	"16 15 12 7"	 [color=yellow,
+		style=filled];
+	"16 15 12 7" -> AEGHJ;
+	"16 10 8 1"	 [color=yellow,
+		style=filled];
+	"16 10 8 1" -> CEGHJ;
+	"9 7 6 1"	 [color=yellow,
+		style=filled];
+	"9 7 6 1" -> AGHJ;
+	"10 8 6 1"	 [color=yellow,
+		style=filled];
+	"10 8 6 1" -> AEGHJ;
+	"10 8 6 0"	 [color=yellow,
+		style=filled];
+	"10 8 6 0" -> AGHIJ;
+	"6 5 3 0"	 [color=yellow,
+		style=filled];
+	"6 5 3 0" -> BGHJ;
+	"12 11 8 0"	 [color=yellow,
+		style=filled];
+	"12 11 8 0" -> AGHIJ;
+	"8 7 5 1"	 [color=yellow,
+		style=filled];
+	"8 7 5 1" -> AEGHJ;
+	"8 7 5 0"	 [color=yellow,
+		style=filled];
+	"8 7 5 0" -> AGHIJ;
+	"8 7 5 2"	 [color=yellow,
+		style=filled];
+	"8 7 5 2" -> BEGHJ;
+	"15 13 9 4"	 [color=yellow,
+		style=filled];
+	"15 13 9 4" -> CEGHJ;
+	"14 11 8 1"	 [color=yellow,
+		style=filled];
+	"14 11 8 1" -> AEGHJ;
+	"10 9 6 0"	 [color=yellow,
+		style=filled];
+	"10 9 6 0" -> AGHIJ;
+	"10 9 6 1"	 [color=yellow,
+		style=filled];
+	"10 9 6 1" -> AEGHJ;
+	"10 9 6 2"	 [color=yellow,
+		style=filled];
+	"10 9 6 2" -> BEGHJ;
+	"11 9 6 0"	 [color=yellow,
+		style=filled];
+	"11 9 6 0" -> AGHIJ;
+	"15 12 8 0"	 [color=yellow,
+		style=filled];
+	"15 12 8 0" -> AGHIJ;
+	"12 10 6 0"	 [color=yellow,
+		style=filled];
+	"12 10 6 0" -> BGHJ;
+	"13 12 9 0"	 [color=yellow,
+		style=filled];
+	"13 12 9 0" -> AGHIJ;
+	"10 8 5 1"	 [color=yellow,
+		style=filled];
+	"10 8 5 1" -> CEGHJ;
+	"15 14 9 4"	 [color=yellow,
+		style=filled];
+	"15 14 9 4" -> CEGHJ;
+	"16 14 13 2"	 [color=yellow,
+		style=filled];
+	"16 14 13 2" -> AGHIJ;
+	"10 7 5 0"	 [color=yellow,
+		style=filled];
+	"10 7 5 0" -> BGHJ;
+	"16 15 14 10"	 [color=yellow,
+		style=filled];
+	"16 15 14 10" -> AEGHJ;
+	"9 8 5 1"	 [color=yellow,
+		style=filled];
+	"9 8 5 1" -> BEGHJ;
+	"9 8 5 0"	 [color=yellow,
+		style=filled];
+	"9 8 5 0" -> AGHIJ;
+	"15 12 10 5"	 [color=yellow,
+		style=filled];
+	"15 12 10 5" -> BEGHJ;
+	"12 9 6 0"	 [color=yellow,
+		style=filled];
+	"12 9 6 0" -> BGHJ;
+	"10 7 5 1"	 [color=yellow,
+		style=filled];
+	"10 7 5 1" -> CEGHJ;
+	"7 5 4 1"	 [color=yellow,
+		style=filled];
+	"7 5 4 1" -> BEGHJ;
+	"7 5 4 0"	 [color=yellow,
+		style=filled];
+	"7 5 4 0" -> AGHIJ;
+	"13 10 8 2"	 [color=yellow,
+		style=filled];
+	"13 10 8 2" -> AEGHJ;
+	"15 14 13 8"	 [color=yellow,
+		style=filled];
+	"15 14 13 8" -> AEGHJ;
+	"13 10 8 0"	 [color=yellow,
+		style=filled];
+	"13 10 8 0" -> AGHIJ;
+	"14 13 9 4"	 [color=yellow,
+		style=filled];
+	"14 13 9 4" -> BEGHJ;
+	"7 6 4 0"	 [color=yellow,
+		style=filled];
+	"7 6 4 0" -> AGHIJ;
+	"7 6 4 1"	 [color=yellow,
+		style=filled];
+	"7 6 4 1" -> BEGHJ;
+	"9 8 6 0"	 [color=yellow,
+		style=filled];
+	"9 8 6 0" -> AGHIJ;
+	"9 8 6 1"	 [color=yellow,
+		style=filled];
+	"9 8 6 1" -> AGHJ;
+	"9 8 6 2"	 [color=yellow,
+		style=filled];
+	"9 8 6 2" -> AEGHJ;
+	"9 8 6 3"	 [color=yellow,
+		style=filled];
+	"9 8 6 3" -> BEGHJ;
+	"9 7 5 0"	 [color=yellow,
+		style=filled];
+	"9 7 5 0" -> AGHIJ;
+	"16 15 11 6"	 [color=yellow,
+		style=filled];
+	"16 15 11 6" -> BEGHJ;
+	"13 11 10 5"	 [color=yellow,
+		style=filled];
+	"13 11 10 5" -> AEGHJ;
+	"10 9 5 1"	 [color=yellow,
+		style=filled];
+	"10 9 5 1" -> CEGHJ;
+	"10 9 5 0"	 [color=yellow,
+		style=filled];
+	"10 9 5 0" -> BGHJ;
+	"15 9 7 0"	 [color=yellow,
+		style=filled];
+	"15 9 7 0" -> CEGHJ;
+	"13 9 6 0"	 [color=yellow,
+		style=filled];
+	"13 9 6 0" -> CEGHJ;
+	"16 11 9 3"	 [color=yellow,
+		style=filled];
+	"16 11 9 3" -> CEGHJ;
+	"10 8 7 4"	 [color=yellow,
+		style=filled];
+	"10 8 7 4" -> BEGHJ;
+	"14 13 12 10"	 [color=yellow,
+		style=filled];
+	"14 13 12 10" -> BEGHJ;
+	"10 8 7 0"	 [color=yellow,
+		style=filled];
+	"10 8 7 0" -> AGHIJ;
+	"10 8 7 1"	 [color=yellow,
+		style=filled];
+	"10 8 7 1" -> AGHIJ;
+	"10 8 7 2"	 [color=yellow,
+		style=filled];
+	"10 8 7 2" -> AEGHJ;
+	"10 8 7 3"	 [color=yellow,
+		style=filled];
+	"10 8 7 3" -> AEGHJ;
+	"16 14 9 3"	 [color=yellow,
+		style=filled];
+	"16 14 9 3" -> CEGHJ;
+	"16 15 8 1"	 [color=yellow,
+		style=filled];
+	"16 15 8 1" -> CEGHJ;
+	"9 8 7 0"	 [color=yellow,
+		style=filled];
+	"9 8 7 0" -> AGHIJ;
+	"8 7 6 2"	 [color=yellow,
+		style=filled];
+	"8 7 6 2" -> AEGHJ;
+	"8 7 6 3"	 [color=yellow,
+		style=filled];
+	"8 7 6 3" -> AEGHJ;
+	"8 7 6 0"	 [color=yellow,
+		style=filled];
+	"8 7 6 0" -> AGHIJ;
+	"8 7 6 1"	 [color=yellow,
+		style=filled];
+	"8 7 6 1" -> AGHIJ;
+	"14 12 7 0"	 [color=yellow,
+		style=filled];
+	"14 12 7 0" -> BGHJ;
+	AGHJ -> AGHIJ;
+	AGHJ -> AEGHJ;
+	"9 8 7 5"	 [color=yellow,
+		style=filled];
+	"9 8 7 5" -> BEGHJ;
+	"9 7 4 0"	 [color=yellow,
+		style=filled];
+	"9 7 4 0" -> CEGHJ;
+	"6 5 4 0"	 [color=yellow,
+		style=filled];
+	"6 5 4 0" -> AGHIJ;
+	"6 5 4 1"	 [color=yellow,
+		style=filled];
+	"6 5 4 1" -> AEGHJ;
+	"6 5 4 2"	 [color=yellow,
+		style=filled];
+	"6 5 4 2" -> BEGHJ;
+	"8 6 4 0"	 [color=yellow,
+		style=filled];
+	"8 6 4 0" -> BGHJ;
+	"15 14 10 4"	 [color=yellow,
+		style=filled];
+	"15 14 10 4" -> AEGHJ;
+	"14 12 9 3"	 [color=yellow,
+		style=filled];
+	"14 12 9 3" -> AEGHJ;
+	"7 6 5 3"	 [color=yellow,
+		style=filled];
+	"7 6 5 3" -> BEGHJ;
+	"7 6 5 2"	 [color=yellow,
+		style=filled];
+	"7 6 5 2" -> AEGHJ;
+	"7 6 5 1"	 [color=yellow,
+		style=filled];
+	"7 6 5 1" -> AGHJ;
+	"7 6 5 0"	 [color=yellow,
+		style=filled];
+	"7 6 5 0" -> AGHIJ;
+	"9 6 4 0"	 [color=yellow,
+		style=filled];
+	"9 6 4 0" -> CEGHJ;
+	"9 7 5 1"	 [color=yellow,
+		style=filled];
+	"9 7 5 1" -> BEGHJ;
+	"16 15 14 8"	 [color=yellow,
+		style=filled];
+	"16 15 14 8" -> AEGHJ;
+	"16 15 14 9"	 [color=yellow,
+		style=filled];
+	"16 15 14 9" -> AEGHJ;
+	"9 8 7 1"	 [color=yellow,
+		style=filled];
+	"9 8 7 1" -> AGHIJ;
+	"15 12 10 1"	 [color=yellow,
+		style=filled];
+	"15 12 10 1" -> AGHIJ;
+	"9 8 7 3"	 [color=yellow,
+		style=filled];
+	"9 8 7 3" -> AEGHJ;
+	"9 8 7 2"	 [color=yellow,
+		style=filled];
+	"9 8 7 2" -> AEGHJ;
+	"15 14 12 4"	 [color=yellow,
+		style=filled];
+	"15 14 12 4" -> AEGHJ;
+	"9 8 7 4"	 [color=yellow,
+		style=filled];
+	"9 8 7 4" -> AEGHJ;
+	"13 12 7 0"	 [color=yellow,
+		style=filled];
+	"13 12 7 0" -> AGHIJ;
+	"15 14 12 8"	 [color=yellow,
+		style=filled];
+	"15 14 12 8" -> AEGHJ;
+	"8 7 6 4"	 [color=yellow,
+		style=filled];
+	"8 7 6 4" -> BEGHJ;
+}

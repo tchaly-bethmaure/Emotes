@@ -3,11 +3,10 @@
  *  Author: bgaudou 
  *  Description: 
  */
-
 model peopleV8
 
 import "globals.gaml"
- 
+
 // People implemented for the replicator dynamic:
 // - they have a pure strategy 
 // - they are characterized by their strategy and guiltAversion (si, gai)
@@ -49,7 +48,7 @@ species people {
 			int max <- max(possibleActions collect (ideality at ([each,last(list(stratIdeal.key))])));
 			add (gValue-max) at: stratIdeal.key to: guilt;
 		}
-		if(debugGame){do displayGuilt;}
+		if(debugGame){ do displayGuilt; }
 		
 		// Map utility : (s::utilityValue), i.e. (list of: string)::int
 		map<list<string>,int> utility <- map(game.pairs collect (each.key::int(first(each.value))));
@@ -113,5 +112,5 @@ species people {
 		write ' D |    '+guiltDependentUtility at ["D","C"]+'   |    '+guiltDependentUtility at ["D","D"]+'   |';
 		write '---|-------------------|';	
 		write '';			
-	}				
+	}	
 }

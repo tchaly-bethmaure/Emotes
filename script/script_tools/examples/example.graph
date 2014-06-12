@@ -1,0 +1,22 @@
+# Concidering graph_generator.py script
+# Syntax exemple for generating a graph : 
+# -> NODES : n(a_string)
+# -> EDGES : e(a_string1, a_string2)
+
+# ============= Examples : ===============
+# A node
+n(1)
+
+# bunsh of node
+n(2),n(3)whateveryouwrite(4) n(5)
+
+# A simple edge
+e(1,1)
+
+# Now, few more edge
+e(1,2) e(2,3) e(3,3) e(4,2)
+e(1,1)
+
+# Case sensitive
+E(4,4)
+

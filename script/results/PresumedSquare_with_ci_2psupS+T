@@ -1,0 +1,360 @@
+Proceeding configuration 12 10 2 0:
+-> 12 10 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 10 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 7 5 4:
+-> 8 7 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 7 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 2 1:
+-> 9 8 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 6 5 4:
+-> 7 6 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 6 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 8 5 1:
+-> 12 8 5 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 12 8 5 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 16 15 12 11:
+-> 16 15 12 11 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 16 15 12 11 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 2 0:
+-> 10 8 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 8 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 3 2 1 0:
+-> 3 2 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 3 2 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 14 13 11:
+-> 16 14 13 11 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 16 14 13 11 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 12 9 3 0:
+-> 12 9 3 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 9 3 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 15 12 4 1:
+-> 15 12 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 12 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 8 3 0:
+-> 11 8 3 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 8 3 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 3 2:
+-> 10 9 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 5 4 2 1:
+-> 5 4 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 5 4 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 4 2 0:
+-> 6 4 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 6 4 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 7 3 0:
+-> 10 7 3 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 7 3 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 8 7:
+-> 10 9 8 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 8 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 9 4 1:
+-> 12 9 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 9 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 13 8 7:
+-> 14 13 8 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 13 8 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 6 1 0:
+-> 7 6 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 6 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 4 3:
+-> 9 8 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 10 8 2:
+-> 16 10 8 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 16 10 8 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 15 13 9 7:
+-> 15 13 9 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 13 9 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 5 3 2:
+-> 6 5 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 6 5 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 1 0:
+-> 9 8 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 5 1 0:
+-> 6 5 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 6 5 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 11 6 5:
+-> 12 11 6 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 6 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 15 14 2 0:
+-> 15 14 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 14 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 7 3 2:
+-> 8 7 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 7 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 11 7 6:
+-> 12 11 7 6 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 7 6 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 6 4 1:
+-> 9 6 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 9 6 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 11 7 4 0:
+-> 11 7 4 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 11 7 4 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 8 7 4 3:
+-> 8 7 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 7 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 10 4 2:
+-> 12 10 4 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 10 4 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 5 4:
+-> 10 9 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 6 3 2:
+-> 7 6 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 6 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 5 4 3:
+-> 6 5 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 6 5 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 10 3 1:
+-> 12 10 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 10 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 10 2 0:
+-> 11 10 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 10 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 4 3 2 1:
+-> 4 3 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 4 3 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 11 2 1:
+-> 12 11 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 7 2 0:
+-> 9 7 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 7 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 13 11 9 7:
+-> 13 11 9 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 11 9 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 13 4 3:
+-> 14 13 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 13 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 4 3 1 0:
+-> 4 3 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 4 3 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 7 3 1:
+-> 9 7 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 7 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 4 3 1:
+-> 6 4 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 6 4 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 9 6 3 0:
+-> 9 6 3 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 6 3 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 7 5:
+-> 10 8 7 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 10 8 7 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 11 10 1 0:
+-> 11 10 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 10 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 10 6 2:
+-> 14 10 6 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 10 6 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 12 8 6:
+-> 14 12 8 6 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 12 8 6 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 6 2 0:
+-> 8 6 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 6 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 7 5 3:
+-> 9 7 5 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 7 5 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 5 4 2:
+-> 7 5 4 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 7 5 4 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 13 11 3 1:
+-> 13 11 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 11 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 6 5:
+-> 9 8 6 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 6 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 13 9 4 0:
+-> 13 9 4 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 9 4 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 5 3:
+-> 10 8 5 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 8 5 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 6 5 2 1:
+-> 6 5 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 6 5 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 13 10 7:
+-> 16 13 10 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 16 13 10 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 9 2 0:
+-> 11 9 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 9 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 5 4:
+-> 9 8 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 6 2 1:
+-> 7 6 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 6 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 11 10 9:
+-> 12 11 10 9 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 10 9 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 9 5 0:
+-> 14 9 5 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 14 9 5 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 15 11 9 5:
+-> 15 11 9 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 15 11 9 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 13 10 6 3:
+-> 13 10 6 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 10 6 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 4 3:
+-> 10 9 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 6 5:
+-> 10 9 6 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 6 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 15 13 2 0:
+-> 15 13 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 13 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 7 6 5:
+-> 8 7 6 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 7 6 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 14 7 5:
+-> 16 14 7 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 16 14 7 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 8 7 4:
+-> 11 8 7 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 11 8 7 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 14 12 3 1:
+-> 14 12 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 12 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 7 6 4:
+-> 9 7 6 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 9 7 6 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 10 9 7 6:
+-> 10 9 7 6 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 7 6 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 5 4 1:
+-> 8 5 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 8 5 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 7 5 2 0:
+-> 7 5 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 5 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 1 0:
+-> 10 9 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 6 4 2:
+-> 8 6 4 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 6 4 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 12 7 5:
+-> 14 12 7 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 12 7 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 7 6 4 3:
+-> 7 6 4 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 6 4 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 8 7 6:
+-> 9 8 7 6 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 7 6 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 8 4 0:
+-> 12 8 4 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 8 4 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 10 5 4:
+-> 11 10 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 10 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 12 6 2:
+-> 16 12 6 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 16 12 6 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 13 12 5 4:
+-> 13 12 5 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 12 5 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 9 2 1:
+-> 10 9 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 9 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 10 2 1:
+-> 11 10 2 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 10 2 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 11 7 1 0:
+-> 11 7 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 11 7 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 6 4:
+-> 10 8 6 4 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 8 6 4 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 12 11 1 0:
+-> 12 11 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 15 13 10 8:
+-> 15 13 10 8 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 13 10 8 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 4 2:
+-> 10 8 4 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 8 4 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 7 5 2:
+-> 10 7 5 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 10 7 5 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 15 13 5 3:
+-> 15 13 5 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 15 13 5 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 9 7 2:
+-> 14 9 7 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 14 9 7 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 14 13 12 11:
+-> 14 13 12 11 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 13 12 11 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 12 9 5:
+-> 16 12 9 5 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 16 12 9 5 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 10 6 4 0:
+-> 10 6 4 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 10 6 4 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 12 11 2 0:
+-> 12 11 2 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 12 11 2 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 8 3 1:
+-> 10 8 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 8 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 6 5 2:
+-> 9 6 5 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 9 6 5 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 10 7 4 1:
+-> 10 7 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 10 7 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 5 4 3 2:
+-> 5 4 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 5 4 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 9 7 4 2:
+-> 9 7 4 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 7 4 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 6 5 3:
+-> 8 6 5 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 8 6 5 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 7 5 3 1:
+-> 7 5 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 7 5 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 10 7 6 3:
+-> 10 7 6 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -3.
+-> 10 7 6 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -3.
+Proceeding configuration 13 12 3 2:
+-> 13 12 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 12 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 5 3 0:
+-> 8 5 3 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 8 5 3 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 9 8 3 2:
+-> 9 8 3 2 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 9 8 3 2 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 13 12 8 7:
+-> 13 12 8 7 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 13 12 8 7 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 7 1 0:
+-> 8 7 1 0 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 7 1 0 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 8 6 3 1:
+-> 8 6 3 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 8 6 3 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 14 10 5 1:
+-> 14 10 5 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 14 10 5 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 16 13 4 1:
+-> 16 13 4 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -1.
+-> 16 13 4 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -1.
+Proceeding configuration 13 9 7 3:
+-> 13 9 7 3 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 13 9 7 3 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.
+Proceeding configuration 11 7 5 1:
+-> 11 7 5 1 (with (P - S) / (S+T - 2*R)) the limit C/D is -2.
+-> 11 7 5 1 (with (R - T) / (S+T - 2*P)) the limit C/D is -2.

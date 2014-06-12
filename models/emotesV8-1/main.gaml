@@ -6,7 +6,7 @@
 
 model emotesV8
 
-import "globals.gaml" 
+import "globals.gaml"
 import "people.gaml"
 import "peoplePureStrategy.gaml"
 import "peopleFictitiousPlay.gaml"
@@ -57,7 +57,7 @@ global	{
 		
 		// Init the next instance of the PD game
 		game_configuration_index <- game_configuration_index + 1;
-		map<string, int> next_config <- self string_to_mapTRPS(valid_configuration at game_configuration_index);
+		map<string, int> next_config <- self stringConfToMapTRPS(valid_configuration at game_configuration_index);
 		do create_game_instance(next_config);
 		
 		cycle_to_sub <- cycle;

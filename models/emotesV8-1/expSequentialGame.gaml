@@ -34,14 +34,16 @@ global {
 	int cycle_to_sub <- 0;
 	
 	// Statistics vars1
+	map<float, int> agent_gain <- []; // map<int:agent#, int:cash>
+	int total_gain <- 0;
 	int defect_count <- 1;
-    int coop_count <- 0;
+	int coop_count <- 0;
     int chaos_count <- 0;
     int traitor_count <- 0;
-    int sucker_count <- 0;	
+	int sucker_count <- 0;	
     int nb_of_stable_state <- 1; // only stable ones
-    int nb_of_unstable_state <- 1; // unstable
-    map<string,int> state_history <- ["stable"::0, "unstable"::0, "cycle_count"::0];
+	int nb_of_unstable_state <- 1; // unstable
+	map<string,int> state_history <- ["stable"::0, "unstable"::0, "cycle_count"::0];
     int stable_change_max_cycle_elapsed <- 100;
     
     // Generated configuration file vars 
@@ -49,11 +51,15 @@ global {
    	string file_name;
    	string file_extension;
     
+    string save_results_path;
+    
 	init{
-		valid_configuration <- read_file_containing_config(file_name,file_path) ;  // Initial configuration
-		rejected_configuration <- [];
-		// if(sequential_game_testing = true){do find_matching_DP_config();}
-		if(game_configuration_index != 0){ do reset_game(); }
+		if(sequential_game_testing){
+			valid_configuration <- read_file_containing_config(file_name,file_path) ;  // Initial configuration
+			rejected_configuration <- [];
+			// if(sequential_game_testing = true){do find_matching_DP_config();}
+			if(game_configuration_index != 0){ do reset_game(); }		
+		}
 	}
 	
 	reflex 	begin_an_other_game {
@@ -68,12 +74,16 @@ global {
 				do save_statistic();
 				do reset_game();
 			}
-			else { write "Simulation is over."; do halt; }
+			else { write "xxxxxxxxxxx Simulation is over xxxxxxxxxxx"; do halt; }
 		}
+		
+		/*if (is_game_stable = true and sequential_game_testing = false) {
+			 write "xxxxxxxxxxx Simulation is over xxxxxxxxxxx"; do halt;
+		}*/
 	}
 	
 	action save_statistic{				
-		string file_name <- "config_related_save/PrisonnerDilemma_Stats";
+		string file_name <- save_results_path+"/PrisonnerDilemma_Stats";
 		string data <- "D::" + string(defect_count) + ";C::" + string(coop_count)+";Config::"+valid_configuration at game_configuration_index+";";
 		save data type: "csv" to: file_name;
 	}
@@ -85,18 +95,25 @@ global {
 	        coop_count <- 0;
 	        chaos_count <- 0;
 	        traitor_count <- 0;
-	        sucker_count <- 0;	        
+	        sucker_count <- 0;
+	        agent_gain <- [];
+	        total_gain <- 0;
 	        state_history["stable"] <- nb_of_stable_state;
 			state_history["unstable"] <- nb_of_unstable_state;
 	        nb_of_stable_state <- 0; // stable
 	        nb_of_unstable_state <- 0; // stabe + unstable	        
 			
 	        loop p1 over:peoples{
+				// Map gain
+	        	add((float(p1.guiltAversion))::(int(p1.sumPayoffs))) to:agent_gain;
+	        	total_gain <- total_gain + int(p1.sumPayoffs);
+	        	
 				loop p2 over:peoples{
 					//peopleFictitiousPlay p1 <- peopleFictitiousPlay(i);
-					//peopleFictitiousPlay p2 <- peopleFictitiousPlay(j);
+					//peopleFictitiousPlay p2 <- peopleFictitiousPlay(j);							
 					
-					if (p1.guiltAversion != p2.guiltAversion){
+					// Stats for FictitiousPeople
+					if (length(peoples of_species peopleFictitiousPlay) != 0 and p1.guiltAversion != p2.guiltAversion){
 						int move_p1 <- (peopleFictitiousPlay(p1).history at p2) at 3;							
 						int move_p2 <- (peopleFictitiousPlay(p2).history at p1) at 3;
 						if(move_p1 = 1 and move_p2 = 1) { coop_count <- coop_count + 1; }
@@ -112,7 +129,7 @@ global {
 						}
 					}
 				}
-			}			
+			}
 		}
 	}
 	
@@ -129,7 +146,7 @@ global {
 			if((state_history["stable"] != nb_of_stable_state) or (state_history["unstable"] != nb_of_unstable_state)){
 				state_history["cycle_count"] <- 0;
 			}
-						
+			
 			if((((state_history["stable"] = nb_of_stable_state) and (state_history["unstable"] = nb_of_unstable_state))
 			 or
 			 nb_of_stable_state = grid_agent) and instance_cycle > borne_inf){
@@ -154,7 +171,7 @@ global {
 	}
 	
 	action snap_shot{
-		string file_name <- "config_related_save/configuration_"+valid_configuration at game_configuration_index+".csv";
+		string file_name <- save_results_path+"/configuration_"+valid_configuration at game_configuration_index+".csv";
 		string data <- "";
 					
 		int i <- 0;
@@ -177,7 +194,7 @@ global {
 			save data type: "csv" to: file_name;
 			data <- "";
 			i <- i + 1;
-		}		
+		}	
 	}
 }
 
@@ -213,21 +230,34 @@ experiment expSequentialGame type: gui {
 	parameter "Sequential game testing" var: sequential_game_testing<-true category: "Sequential game";
 	parameter "Generated configuration file path" var: file_path<-"config_generation" category: "Sequential game";
 	parameter "Generated configuration file name" var: file_name<-"all_conf-1_to_10.csv" category: "Sequential game";
-	//parameter "Extension of file" var: file_extension<-csv category: "Sequential game";
+	parameter "Results saving path" var: save_results_path<-"simulation_saves" category: "Sequential game";	
 	
-	
-	output{	
-			display Charts  refresh_every: 10 {
-				chart "Players' behaviour" type: pie background: rgb("lightGray") style: exploded size: {0.9, 0.9} position: {0, 0} {			
-		            data "Defector" value: defect_count color: rgb('red') ;
-		            data "Cooperator" value: coop_count  color: rgb("green") ;
-		            data "Traitor" value: traitor_count  color: rgb("blue") ;
-		            data "Sucker" value: sucker_count  color: rgb("yellow") ;
-		            data "Chaos" value: chaos_count color: rgb("black") ;
-		       	 }
-		    }
-			 
-			display Behav type: opengl{				
+	output{
+		display behaviour refresh_every: 10 {
+			chart name:'Players\' behaviour' type: pie background: rgb("lightGray") style: exploded size: {0.9, 0.9} position: {0, 0} {			
+	            data "Defector" value: defect_count color: rgb('red') ;
+	            data "Cooperator" value: coop_count  color: rgb("green");
+	            data "Traitor" value: traitor_count  color: rgb("blue");
+	            data "Sucker" value: sucker_count  color: rgb("yellow");
+	            data "Chaos" value: chaos_count color: rgb("black") ;
+	    	}
+		}
+
+		   /*display gain refresh_every: 10 {		   	
+		       	 chart name:'Repartition of gain' type: histogram background: rgb('lightGray') {
+		       	 	if(total_gain != 0 and guiltAversionStep != 0 and length(agent_gain) > 1){
+		       	 		int i <- 0;		       	 							
+						loop value over:agent_gain{
+							// Amount (in %) of total gain agent i acquired
+							float percent_of_cake <- (value / total_gain) with_precision 0.01;
+							data name:string(i) value: percent_of_cake;
+							i <- i + 1;
+						}						
+					}
+				}
+		    }*/
+			
+			/*display Behav type: opengl{				
 				graphics 'G' {
 					int i <- 0;
 					int j <- 0;
@@ -250,7 +280,7 @@ experiment expSequentialGame type: gui {
 					}
 					
 					
-				}	
-	   		}
-	   	}	
+				}
+	   		}*/
+	}
 }

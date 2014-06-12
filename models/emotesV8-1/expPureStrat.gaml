@@ -48,7 +48,7 @@ experiment expPureStratV8 type: gui {
 					float gA <- (i * guiltAversionStep) with_precision precision;
 					data string((i * guiltAversionStep) with_precision precision) value: peoplePureStrategy count (each.guiltAversion = gA);
 				}
-			} 
+			}
 		}
 		display gA_repartition {
 			chart 'gA for D' type: histogram background : rgb('lightGray') position: {0,0} size:{1,0.5} {
@@ -63,13 +63,13 @@ experiment expPureStratV8 type: gui {
 					data string(gA) value: peoplePureStrategy count ((each.guiltAversion = gA) and (each.strategy = "C"));
 				}
 			}			
-		}			
+		}
 		display strategy {
 			chart name: 'strategy repartition' type: histogram background: rgb('lightGray')  {
 				data name: "C" value: peoplePureStrategy count (each.strategy = "C");
 				data name: "D" value: peoplePureStrategy count (each.strategy = "D");
 			} 
-		}	
+		}
 		display repart {
 			chart name: 'repartitions' type: series background: rgb('lightGray')  {
 				data name: "avg gA" value: mean(peoplePureStrategy collect (each.guiltAversion));

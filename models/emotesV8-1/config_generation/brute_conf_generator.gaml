@@ -6,14 +6,17 @@
 
 model bruteconfgenerator
 
-global {
-	// Var data file
-	string file_name <- "all_conf-1_to_10.csv";
-		
+import "configTool.gaml"
+
+global {		
 	// Vars BF
-	list<int> numbers <- [0,1,2,3,4,5,6,7,8,9,10];
-	int number_of_panels <- 4; // T R P S
+	//list<int> numbers <- [0,1,2,3,4,5,6,7,8,9,10];
+	list<int> numbers <- [0,1,2,3,4,5,6,7,8,9,10,11,12];
+	int number_of_panels <- 4; // 4 = > T R P S
 	list<int> panels_index;
+	
+	// Var data file
+	string file_name <- "all_conf-["+string(numbers[0])+","+string(numbers[length(numbers) - 1])+"].csv";
 	
 	init{ do generate_all_configuration(true); }
 	
@@ -22,7 +25,7 @@ global {
 		list<string> valid_configuration <- [];
 		
 		// Init channel		
-		loop from:0 to:number_of_panels - 1{ add(0) to:panels_index; }
+		loop from:0 to:number_of_panels - 1 { add(0) to:panels_index; }
 		
 		// Generate conf
 		loop while: !increment_panel(0){
@@ -31,7 +34,7 @@ global {
 			if(is_good_conf_for_PD(new_configuration)){ add(new_configuration) to:valid_configuration; }
 		}
 		
-		// Save to a csv file		
+		// Save to a csv file
 		string data <- "";
 		loop line over:valid_configuration{
 			data <- data + line + ";";
@@ -47,42 +50,22 @@ global {
 	}
 	
 	bool is_max_value(int index){
-		if(panels_index[index] = numbers[length(numbers) - 1]){ return true; }
+		if(numbers[panels_index[index]] = numbers[(length(numbers) - 1)]){ return true; }
 		return false;
 	}
 	
-	bool increment_panel(int current_index){
+	bool increment_panel(int current_index){		
 		if(!is_max_value(current_index)){
 			 panels_index[current_index] <- panels_index[current_index] + 1;
 		}
-		else { 
+		else {
 			if(is_next_pannel(current_index)){
 				panels_index[current_index] <- 0;
-				return increment_panel(current_index + 1); 				
+				return increment_panel(current_index + 1);
 			}
 			else{ return true; }	// it's over	
 		}
 		return false;
-	}
-	
-	// Tools related to prisonner's dilemma //	
-	string config_to_string(int T, int R, int P, int S){ return string(T)+" "+string(R)+" "+string(P)+" "+string(S); }
-	
-	bool is_good_conf_for_PD (string conf){		
-		map<string,int> config_map <- string_to_mapTRPS(conf);
-		if (config_map["T"] > config_map["R"] and config_map["R"] > config_map["P"] and config_map["P"] > config_map["S"] and ( config_map["R"] > int(config_map["T"]/2) + int(config_map["S"]/2))){ return true; }
-		return false;
-	}
-		
-	map<string,int> string_to_mapTRPS(string conf){
-		list<string> TRPS <- conf split_with " ";
-		
-		int T <- int(TRPS at 0);
-		int R <- int(TRPS at 1); 
-		int P <- int(TRPS at 2);
-		int S <- int(TRPS at 3);
-		
-		return ["T"::T, "R"::R, "P"::P, "S"::S];
 	}	
 	
 }

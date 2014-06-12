@@ -1,0 +1,20 @@
+### Some explanation concerning scripts :
+
+* csv_to_png.py is the script used to do a results_of_sequentialGameSimulation.csv to .png conversion.
+ 
+* conf_check_condition.py : given a_confguration_file (present in exemples) and a_condition_file (also in examples) will eval : if each configuration lister in configuration file satisfy or not each condition listed in condition file. The output is a report file generated in a results folder, so is there isn't one, make it. 
+
+* data_to_graph.py : extend functions of conf_check_condition.py plus agregate conditions satisifed commonly by each configuration. There are two out put : 
+- firtly, a report file, you have the labeled conditions (A,B,C,D, ...) mapped in it.
+- secondly, a vectorial image as a .ps  file wich show the agregation of configuration with a graph view, showing the set of conditions satisfied by condigurations and subset of conditions liked by superset of conditions... "what he is just saying ?", no ? Ok.
+
+* conf_eval_giver.py : is similar to conf_check_conditions, it compute the value of a given term for each configuration listed instead of evaluating a condition.
+
+### Dependencies
+Most of those scripts use tools.py
+csv_to_png.py use png.py file 
+
+### examples ?
+examples folder contains lists of configuration and lists of conditions
+
+Those scripts obviously are written in Python :D.

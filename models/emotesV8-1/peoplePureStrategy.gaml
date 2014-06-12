@@ -14,7 +14,7 @@ import "people.gaml"
 	species peoplePureStrategy parent: people {
 		string strategy;
 		
-		string play_with (people p) {		
+		string play_with (people p) {
 			return strategy;
 		}
 		
