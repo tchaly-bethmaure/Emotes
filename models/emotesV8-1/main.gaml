@@ -23,9 +23,21 @@ global	{
 	float guiltAversionInitMax <- 2.0;
 	float guiltAversionInitMin <- 0.0;
 	float guiltAversionStep <- 0.1;
-	int precision;
+	// -> Distribution
+	float guiltAversionMean;
+	float guiltDispersion;
+	string guiltLaw; // Uniform or Normal
+	int nbOfAgtOfSample;
 	
-	// Mode of the simulation
+	int precision; // ?
+	
+	// Noise
+	float guiltNoise; // Situationnal noise
+	float rationalNoise; // Rationality noise
+	float idealityNoise; // Belief noise
+	float stratNoise; // Impulsiv strategy change
+	
+	// Mode of simulation
 	string peopleStrategy <- 'Pure';   	// ['Pure','Fictious play']
 	string evolutionMode <- 'None';		// ['None','Replicator dynamic']
 	string idealComputation <- 'Rawls';	// ["Rawls","Harsanyi","mixRawlsHarsanyi"]
@@ -40,7 +52,7 @@ global	{
 	int T; 
 	int S;
 	
-	float sumPayoff <- 0.0; 
+	float sumPayoff <- 0.0;
 	
 	list<people> peoples -> {agents of_generic_species people};
 	
@@ -48,9 +60,9 @@ global	{
 		do create_game_instance(["T"::T,"R"::R,"P"::P,"S"::S]);
 	}
 	
-	action reset_game{		
+	action reset_game{
 		// Kill the agent game and agent peoples (this is obviously a contextual comment ... :D)
-		ask iterated_game_instance { 
+		ask iterated_game_instance {
 			ask peoples_in_instance { do die; }
 			do die;
 		}

@@ -1,0 +1,8 @@
+2*P < S + T
+# To see in which subcase of configuration we are :
+# (1)
+P+R - (T+S) > 0
+# (2) 
+P+R - (T+S) < 0
+# (3)
+P+R - (T+S) == 0

@@ -1,0 +1,352 @@
+strict digraph  {
+	"8 7 3 2"	 [color=yellow,
+		style=filled];
+	AD	 [color=green,
+		style=filled];
+	"8 7 3 2" -> AD;
+	"3 2 1 0"	 [color=yellow,
+		style=filled];
+	"3 2 1 0" -> AD;
+	"16 13 4 1"	 [color=yellow,
+		style=filled];
+	"16 13 4 1" -> AD;
+	"10 9 4 3"	 [color=yellow,
+		style=filled];
+	"10 9 4 3" -> AD;
+	"10 7 3 0"	 [color=yellow,
+		style=filled];
+	"10 7 3 0" -> AD;
+	"16 12 9 5"	 [color=yellow,
+		style=filled];
+	"16 12 9 5" -> AD;
+	"10 8 4 2"	 [color=yellow,
+		style=filled];
+	"10 8 4 2" -> AD;
+	"8 7 1 0"	 [color=yellow,
+		style=filled];
+	"8 7 1 0" -> AD;
+	"10 9 3 2"	 [color=yellow,
+		style=filled];
+	"10 9 3 2" -> AD;
+	"12 10 4 2"	 [color=yellow,
+		style=filled];
+	"12 10 4 2" -> AD;
+	"11 7 4 0"	 [color=yellow,
+		style=filled];
+	"11 7 4 0" -> AD;
+	"11 7 5 1"	 [color=yellow,
+		style=filled];
+	"11 7 5 1" -> AD;
+	"4 3 2 1"	 [color=yellow,
+		style=filled];
+	"4 3 2 1" -> AD;
+	"5 4 3 2"	 [color=yellow,
+		style=filled];
+	"5 4 3 2" -> AD;
+	"11 8 7 4"	 [color=yellow,
+		style=filled];
+	"11 8 7 4" -> AD;
+	"12 8 4 0"	 [color=yellow,
+		style=filled];
+	"12 8 4 0" -> AD;
+	"12 11 2 1"	 [color=yellow,
+		style=filled];
+	"12 11 2 1" -> AD;
+	"9 8 3 2"	 [color=yellow,
+		style=filled];
+	"9 8 3 2" -> AD;
+	"15 11 9 5"	 [color=yellow,
+		style=filled];
+	"15 11 9 5" -> AD;
+	"7 5 2 0"	 [color=yellow,
+		style=filled];
+	"7 5 2 0" -> AD;
+	"12 9 4 1"	 [color=yellow,
+		style=filled];
+	"12 9 4 1" -> AD;
+	"14 12 8 6"	 [color=yellow,
+		style=filled];
+	"14 12 8 6" -> AD;
+	"8 5 3 0"	 [color=yellow,
+		style=filled];
+	"8 5 3 0" -> AD;
+	"15 12 4 1"	 [color=yellow,
+		style=filled];
+	"15 12 4 1" -> AD;
+	"10 9 8 7"	 [color=yellow,
+		style=filled];
+	"10 9 8 7" -> AD;
+	"10 8 2 0"	 [color=yellow,
+		style=filled];
+	"10 8 2 0" -> AD;
+	"9 7 3 1"	 [color=yellow,
+		style=filled];
+	"9 7 3 1" -> AD;
+	"14 9 7 2"	 [color=yellow,
+		style=filled];
+	"14 9 7 2" -> AD;
+	"12 11 7 6"	 [color=yellow,
+		style=filled];
+	"12 11 7 6" -> AD;
+	"8 6 2 0"	 [color=yellow,
+		style=filled];
+	"8 6 2 0" -> AD;
+	"7 6 2 1"	 [color=yellow,
+		style=filled];
+	"7 6 2 1" -> AD;
+	"9 6 5 2"	 [color=yellow,
+		style=filled];
+	"9 6 5 2" -> AD;
+	"13 12 5 4"	 [color=yellow,
+		style=filled];
+	"13 12 5 4" -> AD;
+	"9 7 6 4"	 [color=yellow,
+		style=filled];
+	"9 7 6 4" -> AD;
+	"10 8 5 3"	 [color=yellow,
+		style=filled];
+	"10 8 5 3" -> AD;
+	"6 4 2 0"	 [color=yellow,
+		style=filled];
+	"6 4 2 0" -> AD;
+	"10 9 7 6"	 [color=yellow,
+		style=filled];
+	"10 9 7 6" -> AD;
+	"15 13 9 7"	 [color=yellow,
+		style=filled];
+	"15 13 9 7" -> AD;
+	"14 12 7 5"	 [color=yellow,
+		style=filled];
+	"14 12 7 5" -> AD;
+	"8 7 4 3"	 [color=yellow,
+		style=filled];
+	"8 7 4 3" -> AD;
+	"7 5 3 1"	 [color=yellow,
+		style=filled];
+	"7 5 3 1" -> AD;
+	"13 12 3 2"	 [color=yellow,
+		style=filled];
+	"13 12 3 2" -> AD;
+	"10 7 6 3"	 [color=yellow,
+		style=filled];
+	"10 7 6 3" -> AD;
+	"14 13 4 3"	 [color=yellow,
+		style=filled];
+	"14 13 4 3" -> AD;
+	"16 14 7 5"	 [color=yellow,
+		style=filled];
+	"16 14 7 5" -> AD;
+	"9 8 4 3"	 [color=yellow,
+		style=filled];
+	"9 8 4 3" -> AD;
+	"12 10 3 1"	 [color=yellow,
+		style=filled];
+	"12 10 3 1" -> AD;
+	"11 9 2 0"	 [color=yellow,
+		style=filled];
+	"11 9 2 0" -> AD;
+	"14 10 6 2"	 [color=yellow,
+		style=filled];
+	"14 10 6 2" -> AD;
+	"11 10 5 4"	 [color=yellow,
+		style=filled];
+	"11 10 5 4" -> AD;
+	"12 8 5 1"	 [color=yellow,
+		style=filled];
+	"12 8 5 1" -> AD;
+	"13 11 9 7"	 [color=yellow,
+		style=filled];
+	"13 11 9 7" -> AD;
+	"14 13 8 7"	 [color=yellow,
+		style=filled];
+	"14 13 8 7" -> AD;
+	"9 7 2 0"	 [color=yellow,
+		style=filled];
+	"9 7 2 0" -> AD;
+	"13 9 4 0"	 [color=yellow,
+		style=filled];
+	"13 9 4 0" -> AD;
+	"11 10 1 0"	 [color=yellow,
+		style=filled];
+	"11 10 1 0" -> AD;
+	"6 5 1 0"	 [color=yellow,
+		style=filled];
+	"6 5 1 0" -> AD;
+	"13 11 3 1"	 [color=yellow,
+		style=filled];
+	"13 11 3 1" -> AD;
+	"12 11 10 9"	 [color=yellow,
+		style=filled];
+	"12 11 10 9" -> AD;
+	"6 5 2 1"	 [color=yellow,
+		style=filled];
+	"6 5 2 1" -> AD;
+	"9 7 4 2"	 [color=yellow,
+		style=filled];
+	"9 7 4 2" -> AD;
+	"10 8 6 4"	 [color=yellow,
+		style=filled];
+	"10 8 6 4" -> AD;
+	"6 5 3 2"	 [color=yellow,
+		style=filled];
+	"6 5 3 2" -> AD;
+	"8 6 5 3"	 [color=yellow,
+		style=filled];
+	"8 6 5 3" -> AD;
+	"8 7 5 4"	 [color=yellow,
+		style=filled];
+	"8 7 5 4" -> AD;
+	"10 9 5 4"	 [color=yellow,
+		style=filled];
+	"10 9 5 4" -> AD;
+	"10 9 6 5"	 [color=yellow,
+		style=filled];
+	"10 9 6 5" -> AD;
+	"13 9 7 3"	 [color=yellow,
+		style=filled];
+	"13 9 7 3" -> AD;
+	"16 13 10 7"	 [color=yellow,
+		style=filled];
+	"16 13 10 7" -> AD;
+	"10 9 2 1"	 [color=yellow,
+		style=filled];
+	"10 9 2 1" -> AD;
+	"10 7 5 2"	 [color=yellow,
+		style=filled];
+	"10 7 5 2" -> AD;
+	"15 13 2 0"	 [color=yellow,
+		style=filled];
+	"15 13 2 0" -> AD;
+	"15 13 5 3"	 [color=yellow,
+		style=filled];
+	"15 13 5 3" -> AD;
+	"9 8 5 4"	 [color=yellow,
+		style=filled];
+	"9 8 5 4" -> AD;
+	"10 7 4 1"	 [color=yellow,
+		style=filled];
+	"10 7 4 1" -> AD;
+	"13 10 6 3"	 [color=yellow,
+		style=filled];
+	"13 10 6 3" -> AD;
+	"12 9 3 0"	 [color=yellow,
+		style=filled];
+	"12 9 3 0" -> AD;
+	"7 6 5 4"	 [color=yellow,
+		style=filled];
+	"7 6 5 4" -> AD;
+	"7 5 4 2"	 [color=yellow,
+		style=filled];
+	"7 5 4 2" -> AD;
+	"14 9 5 0"	 [color=yellow,
+		style=filled];
+	"14 9 5 0" -> AD;
+	"9 8 1 0"	 [color=yellow,
+		style=filled];
+	"9 8 1 0" -> AD;
+	"7 6 4 3"	 [color=yellow,
+		style=filled];
+	"7 6 4 3" -> AD;
+	"11 10 2 1"	 [color=yellow,
+		style=filled];
+	"11 10 2 1" -> AD;
+	"9 6 3 0"	 [color=yellow,
+		style=filled];
+	"9 6 3 0" -> AD;
+	"12 11 1 0"	 [color=yellow,
+		style=filled];
+	"12 11 1 0" -> AD;
+	"9 8 6 5"	 [color=yellow,
+		style=filled];
+	"9 8 6 5" -> AD;
+	"9 7 5 3"	 [color=yellow,
+		style=filled];
+	"9 7 5 3" -> AD;
+	"12 10 2 0"	 [color=yellow,
+		style=filled];
+	"12 10 2 0" -> AD;
+	"7 6 1 0"	 [color=yellow,
+		style=filled];
+	"7 6 1 0" -> AD;
+	"16 15 12 11"	 [color=yellow,
+		style=filled];
+	"16 15 12 11" -> AD;
+	"10 8 7 5"	 [color=yellow,
+		style=filled];
+	"10 8 7 5" -> AD;
+	"14 13 12 11"	 [color=yellow,
+		style=filled];
+	"14 13 12 11" -> AD;
+	"15 13 10 8"	 [color=yellow,
+		style=filled];
+	"15 13 10 8" -> AD;
+	"10 9 1 0"	 [color=yellow,
+		style=filled];
+	"10 9 1 0" -> AD;
+	"14 12 3 1"	 [color=yellow,
+		style=filled];
+	"14 12 3 1" -> AD;
+	"10 8 3 1"	 [color=yellow,
+		style=filled];
+	"10 8 3 1" -> AD;
+	"11 8 3 0"	 [color=yellow,
+		style=filled];
+	"11 8 3 0" -> AD;
+	"8 7 6 5"	 [color=yellow,
+		style=filled];
+	"8 7 6 5" -> AD;
+	"14 10 5 1"	 [color=yellow,
+		style=filled];
+	"14 10 5 1" -> AD;
+	"8 5 4 1"	 [color=yellow,
+		style=filled];
+	"8 5 4 1" -> AD;
+	"10 6 4 0"	 [color=yellow,
+		style=filled];
+	"10 6 4 0" -> AD;
+	"6 5 4 3"	 [color=yellow,
+		style=filled];
+	"6 5 4 3" -> AD;
+	"4 3 1 0"	 [color=yellow,
+		style=filled];
+	"4 3 1 0" -> AD;
+	"7 6 3 2"	 [color=yellow,
+		style=filled];
+	"7 6 3 2" -> AD;
+	"5 4 2 1"	 [color=yellow,
+		style=filled];
+	"5 4 2 1" -> AD;
+	"8 6 4 2"	 [color=yellow,
+		style=filled];
+	"8 6 4 2" -> AD;
+	"16 12 6 2"	 [color=yellow,
+		style=filled];
+	"16 12 6 2" -> AD;
+	"9 8 2 1"	 [color=yellow,
+		style=filled];
+	"9 8 2 1" -> AD;
+	"8 6 3 1"	 [color=yellow,
+		style=filled];
+	"8 6 3 1" -> AD;
+	"9 6 4 1"	 [color=yellow,
+		style=filled];
+	"9 6 4 1" -> AD;
+	"16 10 8 2"	 [color=yellow,
+		style=filled];
+	"16 10 8 2" -> AD;
+	"16 14 13 11"	 [color=yellow,
+		style=filled];
+	"16 14 13 11" -> AD;
+	"13 12 8 7"	 [color=yellow,
+		style=filled];
+	"13 12 8 7" -> AD;
+	"12 11 6 5"	 [color=yellow,
+		style=filled];
+	"12 11 6 5" -> AD;
+	"9 8 7 6"	 [color=yellow,
+		style=filled];
+	"9 8 7 6" -> AD;
+	"6 4 3 1"	 [color=yellow,
+		style=filled];
+	"6 4 3 1" -> AD;
+}

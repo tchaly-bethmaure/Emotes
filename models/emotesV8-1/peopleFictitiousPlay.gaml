@@ -11,17 +11,17 @@ import "people.gaml"
 
 species peopleFictitiousPlay parent: people {
 	// History of the interactions : map of agent::[nbCoop, totalInter, lastCoop, nbStepWithoutChange]
-	map<people,list<int>> history;
-	map<people,list<int>> historyRecent;
+	map<people,list<float>> history;
+	map<people,list<float>> historyRecent;
 		
-	string play_with (people p) {			
+	string play_with (people p) {
 		string choice <- one_of(possibleActions);
 		// eltOfHisto : [nbCoop, totalInter, lastCoop, nbStepWithoutChange]
-		list<int> eltOfHisto <- history at p;
+		list<float> eltOfHisto <- history at p;
 		map<string,float> listProbaIbarre <- map([]);
 		if(playWithDebug) {write 'eltOfHisto ' + eltOfHisto;}
 		
-		if(eltOfHisto = []){
+		if(eltOfHisto = [] or eltOfHisto = [0, 0, 0, -1, 0]){
 			listProbaIbarre <- map(["C"::0.5, "D"::0.5]);
 		} else {
 			listProbaIbarre <- map(["C"::((eltOfHisto at 0) / (eltOfHisto at 1)),
@@ -29,8 +29,9 @@ species peopleFictitiousPlay parent: people {
 		}
 		if(playWithDebug) {write 'listProbaIbarre ' + listProbaIbarre;}
 		
-		// Expected utility
+		// Computatin of Expected utility
 		map<string,float> expectedUtilities <- map([]);
+		// Possible action <- C or D
 		loop pchoice over: possibleActions {
 			float expectedUtility <- 0.0;
 			loop jchoice over:listProbaIbarre.pairs {
@@ -40,6 +41,7 @@ species peopleFictitiousPlay parent: people {
 		}
 		if(playWithDebug) {write 'expectedUtilities star    ' + expectedUtilities; }
 		
+		// Agent make his decision (choice)
 		if((expectedUtilities at "C") = (expectedUtilities at "D")){
 			choice <- one_of(expectedUtilities.keys);
 			if(playWithDebug) {write 'choice (random) ' + choice;}
@@ -59,12 +61,13 @@ species peopleFictitiousPlay parent: people {
 		} else {
 			payoff <- (game at s) at 0;
 		}
-		sumPayoffs <- sumPayoffs + payoff; // Ne sert pas , si ? @@@@@@@
+		stepPayoff <- payoff;
+		sumPayoffs <- sumPayoffs + payoff;
 		
 		// add in the history
 		// eltOfHisto is a list : [nbCoop, totalInter, utilityGained, lastCoop, nbStepWithoutChange]	
 		list<int> eltOfHisto <- history at p;
-		int coopRes <- (s at 1) = "C" ? 1 : 0;
+		int coopRes <- ((s at 1) = "C") ? 1 : ((s at 1) = "D" ? 0 : -1);
 		
 		if(eltOfHisto = []){
 			add [coopRes,1,payoff, coopRes, 0] at:p to: history;

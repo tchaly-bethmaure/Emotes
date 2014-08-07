@@ -12,12 +12,19 @@ global {
 	bool resolveGameDebug <- false;
 	bool playWithDebug <- false;	
 	bool check_fairplay <- true; // à supr
+	bool bNoise;
 	
 	// Replicator dynamic parameters
 	int stepEvol;
 	int nbAgentsEvol;
 	bool payoffEmo;
+	float probaEvolution;
 	float probaMutation;
+	// -> mutation (or noise)
+	float idealityNoise;
+	float guiltNoise;
+	float stratNoise;
+	float rationalNoise;
 	
 	// Analysis parameters 
 	// bool batchMode <- false;
@@ -46,7 +53,7 @@ global {
 		list<string> TRPS <- conf split_with " ";
 		
 		int T <- int(TRPS at 0);
-		int R <- int(TRPS at 1); 
+		int R <- int(TRPS at 1);
 		int P <- int(TRPS at 2);
 		int S <- int(TRPS at 3);
 		

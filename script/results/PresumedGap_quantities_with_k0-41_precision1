@@ -1,0 +1,869 @@
+Configuration : 16.0 12.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 10.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 9.0 6.0 2.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 16.0 12.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 11.0 7.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 8.0 4.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 10.0 7.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 11.0 8.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 9.0 7.0 2.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 14.0 9.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 8.0 5.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 7.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 10.0 8.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 6.0 4.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 8.0 5.0 3.0 1.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 11.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 8.0 6.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 15.0 12.0 9.0 7.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 8.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 16.0 11.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 16.0 11.0 8.0 5.0
+* Gap *
+-> Quantity of defector : 25
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 15.0 11.0 5.0 3.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 12.0 7.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 16.0 10.0 6.0 3.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 9.0 7.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 16.0 10.0 7.0 3.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 10.0 6.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 13.0 10.0 9.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 7.0 4.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 10.0 7.0 6.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 6.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 9.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 10.0 7.0 5.0 3.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 12.0 5.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 14.0 8.0 7.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 16.0 10.0 5.0 3.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 10.0 7.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 11.0 6.0 2.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 8.0 6.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 15.0 10.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 14.0 8.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 16.0 13.0 9.0 7.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 12.0 10.0 7.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 10.0 6.0 5.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 13.0 9.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 14.0 11.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 8.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 9.0 7.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 10.0 6.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 15.0 12.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 11.0 7.0 5.0 2.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 8.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 8.0 5.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 10.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 14.0 9.0 6.0 2.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 12.0 9.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 12.0 6.0 5.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 7.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 3.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 9.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 11.0 8.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 9.0 7.0 5.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 7.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 5.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 11.0 7.0 6.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 16.0 12.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 7.0 4.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 11.0 8.0 6.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 15.0 9.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 7.0 5.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 11.0 7.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 10.0 7.0 4.0
+* Gap *
+-> Quantity of defector : 25
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 12.0 9.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 14.0 10.0 6.0 5.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 12.0 9.0 6.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 10.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 14.0 11.0 7.0 6.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 9.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 5.0 3.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 12.0 7.0 4.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 11.0 7.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 13.0 9.0 4.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 9.0 5.0 0.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1296
+-> Quantity of traitor & defector : 1296
+
+
+Configuration : 15.0 10.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 8.0 5.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 14.0 9.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 10.0 6.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 11.0 7.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 6.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 11.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 9.0 6.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 7.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 8.0 6.0 5.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 9.0 5.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 15.0 10.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 25
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 11.0 8.0 3.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 12.0 6.0 3.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 16.0 13.0 9.0 8.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 8.0 3.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 9.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 6.0 3.0 1.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 9.0 5.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 16
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 12.0 8.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 8.0 6.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 16.0 11.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 6.0 4.0 2.0 1.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 10.0 7.0 3.0 1.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 7.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 16.0 12.0 7.0 5.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 10.0 8.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 16.0 10.0 8.0 3.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 11.0 8.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 10.0 7.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 12.0 7.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1444
+-> Quantity of traitor & defector : 1444
+
+
+Configuration : 14.0 10.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 14.0 9.0 3.0 2.0
+* Gap *
+-> Quantity of defector : 9
+-> Quantity of cooperator : 1521
+-> Quantity of traitor & defector : 1521
+
+
+Configuration : 10.0 8.0 5.0 4.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1681
+-> Quantity of traitor & defector : 1681
+
+
+Configuration : 13.0 9.0 4.0 3.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Configuration : 13.0 7.0 2.0 0.0
+* Gap *
+-> Quantity of defector : 36
+-> Quantity of cooperator : 1369
+-> Quantity of traitor & defector : 1369
+
+
+Configuration : 13.0 10.0 4.0 2.0
+* Gap *
+-> Quantity of defector : 1
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 1600
+
+
+Done.

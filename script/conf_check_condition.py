@@ -23,22 +23,10 @@ def do_your_job(file_configurations_name, file_conditions_name):
 	full_path_conf = full_path_conf.replace(file_configurations_name, "")
 	full_path_cond = full_path_cond.replace(file_conditions_name, "")
 
-	file_configurations = open(full_path_conf+file_configurations_name, 'r')
-	file_conditions = open(full_path_cond+file_conditions_name, 'r')
-	configurations = [] # configuration vectors, ex : [["3 2 0 1"], ["5 4 3 1"], ...]
-	conditions = [] # conditions ex : ["R > 1","T > R", "1 == 1" :D, ...]
+	configurations = tools.read_specific_file(full_path_conf+file_configurations_name, "conf") # configuration vectors, ex : [[3, 2, 0, 1], [5, 4, 3, 1], ...]
+	conditions = tools.read_specific_file(full_path_cond+file_conditions_name, "cond") # conditions ex : ["R > 1","T > R", "1 == 1" :D, ...]
 	data = tools.pyMap() # a map that allow key:array structure ex: {"configuration":["val1", "val2", "val3"]}
 	output = [] # console and file log final output
-
-	# loading data
-	for line in file_configurations:
-		if line[0] != "#":
-			configurations.append((line.replace("\n","")).split(' '))
-	for line in file_conditions:
-		if line[0] != "#":
-			conditions.append(line.replace("\n",""))
-	file_configurations.close()
-	file_conditions.close()	
 
 	# exploiting data : for each configuration
 	for config in configurations:

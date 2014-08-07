@@ -1,0 +1,511 @@
+Proceeding configuration 15 13 7 4:
+-> 15 13 7 4 (with 2*P < S + T) the limit C/D is True.
+-> 15 13 7 4 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 13 7 4 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 13 7 4 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 13 7 4 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 15 13 7 4 (with (R-T) / (S+T-2*R)) the limit C/D is 0.285714285714.
+Proceeding configuration 10 9 4 2:
+-> 10 9 4 2 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 4 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 4 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 4 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 4 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 10 9 4 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.166666666667.
+Proceeding configuration 15 12 6 2:
+-> 15 12 6 2 (with 2*P < S + T) the limit C/D is True.
+-> 15 12 6 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 12 6 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 12 6 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 12 6 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.0.
+-> 15 12 6 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.428571428571.
+Proceeding configuration 14 13 10 8:
+-> 14 13 10 8 (with 2*P < S + T) the limit C/D is True.
+-> 14 13 10 8 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 13 10 8 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 13 10 8 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 13 10 8 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 14 13 10 8 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.1.5.
+Proceeding configuration 5 4 2 0:
+-> 5 4 2 0 (with 2*P < S + T) the limit C/D is True.
+-> 5 4 2 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 5 4 2 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 5 4 2 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 5 4 2 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 5 4 2 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 12 8 5 0:
+-> 12 8 5 0 (with 2*P < S + T) the limit C/D is True.
+-> 12 8 5 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 8 5 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 8 5 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 8 5 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.5.
+-> 12 8 5 0 (with (R-T) / (S+T-2*R)) the limit C/D is 1.0.
+Proceeding configuration 14 12 10 7:
+-> 14 12 10 7 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 10 7 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 10 7 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 10 7 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 10 7 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 14 12 10 7 (with (R-T) / (S+T-2*R)) the limit C/D is 0.666666666667.
+Proceeding configuration 14 12 5 2:
+-> 14 12 5 2 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 5 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 5 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 5 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 5 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 14 12 5 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 10 8 5 2:
+-> 10 8 5 2 (with 2*P < S + T) the limit C/D is True.
+-> 10 8 5 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 8 5 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 8 5 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 8 5 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 10 8 5 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 8 6 3 0:
+-> 8 6 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 8 6 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 8 6 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 8 6 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 8 6 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 8 6 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 6 5 2 0:
+-> 6 5 2 0 (with 2*P < S + T) the limit C/D is True.
+-> 6 5 2 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 6 5 2 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 6 5 2 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 6 5 2 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 6 5 2 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 16 13 8 2:
+-> 16 13 8 2 (with 2*P < S + T) the limit C/D is True.
+-> 16 13 8 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 13 8 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 13 8 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 13 8 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 16 13 8 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.375.
+Proceeding configuration 16 12 7 2:
+-> 16 12 7 2 (with 2*P < S + T) the limit C/D is True.
+-> 16 12 7 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 12 7 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 12 7 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 12 7 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.5.
+-> 16 12 7 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.666666666667.
+Proceeding configuration 12 10 5 0:
+-> 12 10 5 0 (with 2*P < S + T) the limit C/D is True.
+-> 12 10 5 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 10 5 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 10 5 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 10 5 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.833333333333.
+-> 12 10 5 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 16 15 7 2:
+-> 16 15 7 2 (with 2*P < S + T) the limit C/D is True.
+-> 16 15 7 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 15 7 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 15 7 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 15 7 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.625.
+-> 16 15 7 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.0833333333333.
+Proceeding configuration 11 9 5 1:
+-> 11 9 5 1 (with 2*P < S + T) the limit C/D is True.
+-> 11 9 5 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 9 5 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 9 5 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 9 5 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 11 9 5 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 12 11 8 5:
+-> 12 11 8 5 (with 2*P < S + T) the limit C/D is True.
+-> 12 11 8 5 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 11 8 5 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 11 8 5 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 11 8 5 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 12 11 8 5 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 10 9 4 0:
+-> 10 9 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.666666666667.
+-> 10 9 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.125.
+Proceeding configuration 10 8 3 0:
+-> 10 8 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 10 8 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 8 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 8 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 8 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 10 8 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 12 9 5 0:
+-> 12 9 5 0 (with 2*P < S + T) the limit C/D is True.
+-> 12 9 5 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 9 5 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 9 5 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 9 5 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.25.
+-> 12 9 5 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 12 10 6 2:
+-> 12 10 6 2 (with 2*P < S + T) the limit C/D is True.
+-> 12 10 6 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 10 6 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 10 6 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 10 6 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 12 10 6 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 9 7 3 0:
+-> 9 7 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 9 7 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 7 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 7 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 7 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 9 7 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.4.
+Proceeding configuration 12 11 8 6:
+-> 12 11 8 6 (with 2*P < S + T) the limit C/D is True.
+-> 12 11 8 6 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 11 8 6 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 11 8 6 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 11 8 6 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 12 11 8 6 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 6 5 3 1:
+-> 6 5 3 1 (with 2*P < S + T) the limit C/D is True.
+-> 6 5 3 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 6 5 3 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 6 5 3 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 6 5 3 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 6 5 3 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 16 11 7 1:
+-> 16 11 7 1 (with 2*P < S + T) the limit C/D is True.
+-> 16 11 7 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 11 7 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 11 7 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 11 7 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -3.0.
+-> 16 11 7 1 (with (R-T) / (S+T-2*R)) the limit C/D is 1.0.
+Proceeding configuration 11 10 4 0:
+-> 11 10 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 11 10 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 10 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 10 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 10 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.666666666667.
+-> 11 10 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.111111111111.
+Proceeding configuration 9 8 5 3:
+-> 9 8 5 3 (with 2*P < S + T) the limit C/D is True.
+-> 9 8 5 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 8 5 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 8 5 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 8 5 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 9 8 5 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 9 8 3 0:
+-> 9 8 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 9 8 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 8 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 8 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 8 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 9 8 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.142857142857.
+Proceeding configuration 12 9 4 0:
+-> 12 9 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 12 9 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 9 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 9 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 9 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.0.
+-> 12 9 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 11 9 4 0:
+-> 11 9 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 11 9 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 9 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 9 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 9 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 11 9 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.285714285714.
+Proceeding configuration 9 7 4 1:
+-> 9 7 4 1 (with 2*P < S + T) the limit C/D is True.
+-> 9 7 4 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 7 4 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 7 4 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 7 4 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 9 7 4 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 16 12 9 4:
+-> 16 12 9 4 (with 2*P < S + T) the limit C/D is True.
+-> 16 12 9 4 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 12 9 4 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 12 9 4 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 12 9 4 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.5.
+-> 16 12 9 4 (with (R-T) / (S+T-2*R)) the limit C/D is 1.0.
+Proceeding configuration 15 14 8 4:
+-> 15 14 8 4 (with 2*P < S + T) the limit C/D is True.
+-> 15 14 8 4 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 14 8 4 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 14 8 4 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 14 8 4 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.666666666667.
+-> 15 14 8 4 (with (R-T) / (S+T-2*R)) the limit C/D is 0.111111111111.
+Proceeding configuration 9 8 4 1:
+-> 9 8 4 1 (with 2*P < S + T) the limit C/D is True.
+-> 9 8 4 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 8 4 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 8 4 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 8 4 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 9 8 4 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.166666666667.
+Proceeding configuration 8 7 4 2:
+-> 8 7 4 2 (with 2*P < S + T) the limit C/D is True.
+-> 8 7 4 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 8 7 4 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 8 7 4 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 8 7 4 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 8 7 4 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 12 10 4 0:
+-> 12 10 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 12 10 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 10 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 10 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 10 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 12 10 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 14 12 7 3:
+-> 14 12 7 3 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 7 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 7 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 7 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 7 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 14 12 7 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.285714285714.
+Proceeding configuration 13 12 10 8:
+-> 13 12 10 8 (with 2*P < S + T) the limit C/D is True.
+-> 13 12 10 8 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 13 12 10 8 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 13 12 10 8 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 13 12 10 8 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 13 12 10 8 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 8 7 5 3:
+-> 8 7 5 3 (with 2*P < S + T) the limit C/D is True.
+-> 8 7 5 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 8 7 5 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 8 7 5 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 8 7 5 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 8 7 5 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 15 10 6 0:
+-> 15 10 6 0 (with 2*P < S + T) the limit C/D is True.
+-> 15 10 6 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 10 6 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 10 6 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 10 6 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -3.0.
+-> 15 10 6 0 (with (R-T) / (S+T-2*R)) the limit C/D is 1.0.
+Proceeding configuration 10 9 4 1:
+-> 10 9 4 1 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 4 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 4 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 4 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 4 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 10 9 4 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.142857142857.
+Proceeding configuration 10 9 6 4:
+-> 10 9 6 4 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 6 4 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 6 4 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 6 4 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 6 4 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 10 9 6 4 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 16 13 7 1:
+-> 16 13 7 1 (with 2*P < S + T) the limit C/D is True.
+-> 16 13 7 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 13 7 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 13 7 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 13 7 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 16 13 7 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 15 13 7 3:
+-> 15 13 7 3 (with 2*P < S + T) the limit C/D is True.
+-> 15 13 7 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 13 7 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 13 7 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 13 7 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 15 13 7 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 10 9 5 2:
+-> 10 9 5 2 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 5 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 5 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 5 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 5 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 10 9 5 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.166666666667.
+Proceeding configuration 7 6 2 0:
+-> 7 6 2 0 (with 2*P < S + T) the limit C/D is True.
+-> 7 6 2 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 7 6 2 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 7 6 2 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 7 6 2 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 7 6 2 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 15 12 7 1:
+-> 15 12 7 1 (with 2*P < S + T) the limit C/D is True.
+-> 15 12 7 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 12 7 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 12 7 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 12 7 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 15 12 7 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.375.
+Proceeding configuration 14 12 7 4:
+-> 14 12 7 4 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 7 4 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 7 4 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 7 4 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 7 4 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 14 12 7 4 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 14 11 6 1:
+-> 14 11 6 1 (with 2*P < S + T) the limit C/D is True.
+-> 14 11 6 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 11 6 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 11 6 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 11 6 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.25.
+-> 14 11 6 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.428571428571.
+Proceeding configuration 10 8 4 1:
+-> 10 8 4 1 (with 2*P < S + T) the limit C/D is True.
+-> 10 8 4 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 8 4 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 8 4 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 8 4 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 10 8 4 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.4.
+Proceeding configuration 14 12 6 0:
+-> 14 12 6 0 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 6 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 6 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 6 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 6 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 14 12 6 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 16 14 8 2:
+-> 16 14 8 2 (with 2*P < S + T) the limit C/D is True.
+-> 16 14 8 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 14 8 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 14 8 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 14 8 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 16 14 8 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 9 8 4 2:
+-> 9 8 4 2 (with 2*P < S + T) the limit C/D is True.
+-> 9 8 4 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 8 4 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 8 4 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 8 4 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 9 8 4 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 11 10 3 0:
+-> 11 10 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 11 10 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 10 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 10 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 10 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 11 10 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.111111111111.
+Proceeding configuration 15 12 6 1:
+-> 15 12 6 1 (with 2*P < S + T) the limit C/D is True.
+-> 15 12 6 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 15 12 6 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 15 12 6 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 15 12 6 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.25.
+-> 15 12 6 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.375.
+Proceeding configuration 11 8 4 0:
+-> 11 8 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 11 8 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 8 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 8 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 8 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.0.
+-> 11 8 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.6.
+Proceeding configuration 14 12 5 0:
+-> 14 12 5 0 (with 2*P < S + T) the limit C/D is True.
+-> 14 12 5 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 12 5 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 12 5 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 12 5 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.833333333333.
+-> 14 12 5 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 10 9 5 3:
+-> 10 9 5 3 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 5 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 5 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 5 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 5 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 10 9 5 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.2.
+Proceeding configuration 10 8 4 0:
+-> 10 8 4 0 (with 2*P < S + T) the limit C/D is True.
+-> 10 8 4 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 8 4 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 8 4 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 8 4 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 10 8 4 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.
+Proceeding configuration 11 8 5 1:
+-> 11 8 5 1 (with 2*P < S + T) the limit C/D is True.
+-> 11 8 5 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 8 5 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 8 5 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 8 5 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -2.0.
+-> 11 8 5 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.75.
+Proceeding configuration 7 5 3 0:
+-> 7 5 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 7 5 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 7 5 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 7 5 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 7 5 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 7 5 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.666666666667.
+Proceeding configuration 11 9 3 0:
+-> 11 9 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 11 9 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 9 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 9 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 9 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 11 9 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.285714285714.
+Proceeding configuration 12 10 8 5:
+-> 12 10 8 5 (with 2*P < S + T) the limit C/D is True.
+-> 12 10 8 5 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 12 10 8 5 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 12 10 8 5 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 12 10 8 5 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 12 10 8 5 (with (R-T) / (S+T-2*R)) the limit C/D is 0.666666666667.
+Proceeding configuration 9 8 3 1:
+-> 9 8 3 1 (with 2*P < S + T) the limit C/D is True.
+-> 9 8 3 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 9 8 3 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 9 8 3 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 9 8 3 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 9 8 3 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.166666666667.
+Proceeding configuration 7 6 3 1:
+-> 7 6 3 1 (with 2*P < S + T) the limit C/D is True.
+-> 7 6 3 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 7 6 3 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 7 6 3 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 7 6 3 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 7 6 3 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 16 14 11 8:
+-> 16 14 11 8 (with 2*P < S + T) the limit C/D is True.
+-> 16 14 11 8 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 16 14 11 8 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 16 14 11 8 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 16 14 11 8 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 16 14 11 8 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 8 7 3 0:
+-> 8 7 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 8 7 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 8 7 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 8 7 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 8 7 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 8 7 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.166666666667.
+Proceeding configuration 10 9 3 0:
+-> 10 9 3 0 (with 2*P < S + T) the limit C/D is True.
+-> 10 9 3 0 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 10 9 3 0 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 10 9 3 0 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 10 9 3 0 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -0.75.
+-> 10 9 3 0 (with (R-T) / (S+T-2*R)) the limit C/D is 0.125.
+Proceeding configuration 8 6 4 1:
+-> 8 6 4 1 (with 2*P < S + T) the limit C/D is True.
+-> 8 6 4 1 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 8 6 4 1 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 8 6 4 1 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 8 6 4 1 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 8 6 4 1 (with (R-T) / (S+T-2*R)) the limit C/D is 0.666666666667.
+Proceeding configuration 11 10 7 5:
+-> 11 10 7 5 (with 2*P < S + T) the limit C/D is True.
+-> 11 10 7 5 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 10 7 5 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 10 7 5 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 10 7 5 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 11 10 7 5 (with (R-T) / (S+T-2*R)) the limit C/D is 0.25.
+Proceeding configuration 11 9 6 3:
+-> 11 9 6 3 (with 2*P < S + T) the limit C/D is True.
+-> 11 9 6 3 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 11 9 6 3 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 11 9 6 3 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 11 9 6 3 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.5.
+-> 11 9 6 3 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 14 11 7 2:
+-> 14 11 7 2 (with 2*P < S + T) the limit C/D is True.
+-> 14 11 7 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 14 11 7 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 14 11 7 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 14 11 7 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.25.
+-> 14 11 7 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.5.
+Proceeding configuration 7 6 4 2:
+-> 7 6 4 2 (with 2*P < S + T) the limit C/D is True.
+-> 7 6 4 2 (with P+R - (T+S) > 0) the limit C/D is True.
+-> 7 6 4 2 (with P+R - (T+S) < 0) the limit C/D is False.
+-> 7 6 4 2 (with P+R - (T+S) == 0) the limit C/D is False.
+-> 7 6 4 2 (with (S-P) / (2*(P+R-1*(S+T))) ) the limit C/D is -1.0.
+-> 7 6 4 2 (with (R-T) / (S+T-2*R)) the limit C/D is 0.333333333333.

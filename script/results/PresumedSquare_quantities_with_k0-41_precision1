@@ -1,0 +1,841 @@
+Configuration : 12.0 10.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 7.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 7.0 6.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 8.0 5.0 1.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 16.0 15.0 12.0 11.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 8.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 3.0 2.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 16.0 14.0 13.0 11.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 12.0 9.0 3.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 15.0 12.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 11.0 8.0 3.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 5.0 4.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 4.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 10.0 7.0 3.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 8.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 9.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 14.0 13.0 8.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 7.0 6.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 16.0 10.0 8.0 2.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1444
+-> Quantity of traitors & sucker : 114
+
+
+Configuration : 15.0 13.0 9.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 5.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 5.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 12.0 11.0 6.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 15.0 14.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 7.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 12.0 11.0 7.0 6.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 6.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 11.0 7.0 4.0 0.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 8.0 7.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 12.0 10.0 4.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 7.0 6.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 5.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 10.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 11.0 10.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 4.0 3.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 11.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 7.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 13.0 11.0 9.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 14.0 13.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 4.0 3.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 7.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 4.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 9.0 6.0 3.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 10.0 8.0 7.0 5.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 11.0 10.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 14.0 10.0 6.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 14.0 12.0 8.0 6.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 6.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 7.0 5.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 7.0 5.0 4.0 2.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 13.0 11.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 6.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 13.0 9.0 4.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 8.0 5.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 6.0 5.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 16.0 13.0 10.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 11.0 9.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 7.0 6.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 12.0 11.0 10.0 9.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 14.0 9.0 5.0 0.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 15.0 11.0 9.0 5.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 13.0 10.0 6.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 6.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 15.0 13.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 7.0 6.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 16.0 14.0 7.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 11.0 8.0 7.0 4.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1444
+-> Quantity of traitors & sucker : 114
+
+
+Configuration : 14.0 12.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 7.0 6.0 4.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 10.0 9.0 7.0 6.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 5.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1444
+-> Quantity of traitors & sucker : 114
+
+
+Configuration : 7.0 5.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 6.0 4.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 14.0 12.0 7.0 5.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 7.0 6.0 4.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 8.0 7.0 6.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 8.0 4.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 11.0 10.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 16.0 12.0 6.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 13.0 12.0 5.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 9.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 11.0 10.0 2.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 11.0 7.0 1.0 0.0
+* Gap *
+-> Quantity of defector : 4
+-> Quantity of cooperator : 1600
+-> Quantity of traitor & defector : 123
+
+
+Configuration : 10.0 8.0 6.0 4.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 12.0 11.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 15.0 13.0 10.0 8.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 8.0 4.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 7.0 5.0 2.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 15.0 13.0 5.0 3.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 14.0 9.0 7.0 2.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 117
+
+
+Configuration : 14.0 13.0 12.0 11.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 16.0 12.0 9.0 5.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 10.0 6.0 4.0 0.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 12.0 11.0 2.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 10.0 8.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 9.0 6.0 5.0 2.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1444
+-> Quantity of traitors & sucker : 114
+
+
+Configuration : 10.0 7.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 5.0 4.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 9.0 7.0 4.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 6.0 5.0 3.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 7.0 5.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 40
+
+
+Configuration : 10.0 7.0 6.0 3.0
+* Square *
+-> Quantity of defectors : 9
+-> Quantity of cooperators : 1444
+-> Quantity of traitors & sucker : 114
+
+
+Configuration : 13.0 12.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 5.0 3.0 0.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1600
+-> Quantity of traitors & sucker : 80
+
+
+Configuration : 9.0 8.0 3.0 2.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 13.0 12.0 8.0 7.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 7.0 1.0 0.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 8.0 6.0 3.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 14.0 10.0 5.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 16.0 13.0 4.0 1.0
+* Square *
+-> Quantity of defectors : 1
+-> Quantity of cooperators : 1681
+-> Quantity of traitors & sucker : 41
+
+
+Configuration : 13.0 9.0 7.0 3.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Configuration : 11.0 7.0 5.0 1.0
+* Square *
+-> Quantity of defectors : 4
+-> Quantity of cooperators : 1521
+-> Quantity of traitors & sucker : 78
+
+
+Done.

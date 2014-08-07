@@ -1,4 +1,6 @@
-
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+# Developped with python 2.7.3
 import png
 import os
 

@@ -1,0 +1,6 @@
+# Check in which cas we are :
+2*P > S + T
+2*P == S + T
+# Now check the bounds of Ci :
+(P - S) / (S+T - 2*R)
+(R - T) / (S+T - 2*R)

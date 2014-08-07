@@ -1,3 +1,6 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+# Developped with python 2.7.3
 import networkx as nx
 import tools
 import conf_check_condition
@@ -127,7 +130,7 @@ if __name__ == '__main__':
 	if len(sys.argv) >= 4 and int(sys.argv[3]) == 1:
 		file_output_generic_name = "results/"+file_configurations_name + "_with_" +file_conditions_name
 		nx.draw(G, node_list = custom_node_color.keys(), node_color=custom_node_color.values())
-		#matplotlib.pyplot.savefig(file_output_generic_name+".png")
+		matplotlib.pyplot.savefig(file_output_generic_name+".png")
 		matplotlib.pyplot.show()
 		matplotlib.pyplot.close()
 		# .dot then .ps file

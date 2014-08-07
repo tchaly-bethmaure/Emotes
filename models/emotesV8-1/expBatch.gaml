@@ -24,7 +24,7 @@ experiment emotesV8Batch repeat: 2 type: batch until: (cycle = cycleToSave) {
 	parameter 'Frequence of evolution' var: stepEvol <- 10 ;
 	parameter 'Nb Agents will evolve' var: nbAgentsEvol <- 5 ;
 	parameter 'Emotional payoffs' var: payoffEmo <- true ;
-	parameter 'Mutation Probability' var: probaMutation <- 0.0 ;
+	parameter 'Mutation Probability' var: probaEvolution <- 0.0 ;
 	
 	parameter 'Display debug Game construction' var: debugGame <- false ;
 	parameter 'Display debug of play' var: playWithDebug <- false ;	
