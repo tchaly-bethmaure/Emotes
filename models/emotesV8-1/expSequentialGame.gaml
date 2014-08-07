@@ -251,7 +251,7 @@ global {
 				loop key over:gain_freq.keys{ gain_freq[key] <- gain_freq[key] / cnt;}
 				
 				// SnapShot string buffer
-				string file_name <- save_results_path+"/report_"+file_name+"_Evo-"+peopleStrategy+"_Ideal-"+idealComputation+".csv";
+				string file_name <- save_results_path+"/report_"+file_name+"_Evo-"+peopleStrategy+"_Ideal-"+idealComputation+"_Guilt"+guiltAversionMean+".save";
 				string data <- "Value::"+valid_configuration at game_configuration_index+";"+"C::"+string(coop_count)+";D::"+defect_count+";IdealRepartition::"
 				+ideal_choosed.keys+":"+ideal_choosed.values+";GainFreq::"+gain_freq.keys+":"+gain_freq.values+";GuiltRep::"+guilt_repartition.keys+":"+guilt_repartition.values+";SumPayOffs::"+string(round(total_gain))+";MinPayOffs::"
 				+string(round(min_gain))+";MaxPayOffs::"+string(round(max_gain))+";Iteration::"+string((cycle-cycle_to_sub))+"\n";				
@@ -264,7 +264,7 @@ global {
 }
 
 experiment expSequentialGame type: gui {
-	parameter 'Agents distribution law'				var: guiltLaw <- 'Unifrom' among: ['Unifrom','Normal'] category: 'Distribution';
+	parameter 'Agents distribution law'				var: guiltLaw <- 'Normal' among: ['Unifrom','Normal'] category: 'Distribution';
 	parameter 'Guilt Aversion Mean'					var: guiltAversionMean <- 2.88 min: -999.0 max: 1000.0 category:'Distribution';
 	parameter 'Guilt Aversion Dispersion'			var: guiltDispersion <- 0.495 min: 0.0 max: 1000.0 category:'Distribution';
 	parameter 'Number of agents'					var: nbOfAgtOfSample <- 82 min: 1 max: 1000 category:'Distribution';	
@@ -276,7 +276,7 @@ experiment expSequentialGame type: gui {
 	
 	parameter 'Agents\' strategy' 	var: peopleStrategy <- 'Pure' among: ['Pure','Fictious play'] category: 'Simulation mode';
 	parameter 'Evolution mode' 				var: evolutionMode <- 'Replicator dynamic' among: ['None','Replicator dynamic'] category: 'Simulation mode';
-	parameter 'Ideal computation' 			var: idealComputation <- "Random" among: ["Rawls","Harsanyi","Random"] category: 'Simulation mode';
+	parameter 'Ideal computation' 			var: idealComputation <- "Harsanyi" among: ["Rawls","Harsanyi","Random"] category: 'Simulation mode';
 
 	parameter 'Reward (R)' 		var: R <- 2 min: 0 max:20 category: 'Prisoner dilemna';
 	parameter 'Temptation (T)' 	var: T <- 3 min: 0 max:20 category: 'Prisoner dilemna';	
