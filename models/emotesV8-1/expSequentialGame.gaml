@@ -261,9 +261,13 @@ global {
 			}
 		}
 	}
+	action view_guilt_rep{
+		write "Guilt repartition of current system : "+string(guilt_repartition.keys);
+	}
 }
 
 experiment expSequentialGame type: gui {
+	user_command guilt_rep action: view_guilt_rep;
 	parameter 'Agents distribution law'				var: guiltLaw <- 'Normal' among: ['Unifrom','Normal'] category: 'Distribution';
 	parameter 'Guilt Aversion Mean'					var: guiltAversionMean <- 2.88 min: -999.0 max: 1000.0 category:'Distribution';
 	parameter 'Guilt Aversion Dispersion'			var: guiltDispersion <- 0.495 min: 0.0 max: 1000.0 category:'Distribution';
@@ -287,7 +291,8 @@ experiment expSequentialGame type: gui {
 	parameter 'Frequence of evolution' 	var: stepEvol <- 10 min: 1 max: 100 category: 'Replicator dynamic';
 	parameter 'Nb Agents will evolve' 	var: nbAgentsEvol <- 5 min: 1 max: 100 category: 'Replicator dynamic';
 	parameter 'Replication Probability' var: probaEvolution <- 30.0 category: 'Replicator dynamic';
-	//parameter 'Mutation Probability' 	var: probaMutation <- 30.0 category: 'Replicator dynamic';
+	parameter 'Mimic also ideal' var: bMimicIdeal <- false category: 'Replicator dynamic';
+	parameter 'Mimic also guilt' var: bMimicGuilt <- false category: 'Replicator dynamic';
 	
 	parameter 'Make some noise' var:bNoise <- false category:'Noise';
 	parameter 'Ideality switch' var:idealityNoise <- 30 min: 0 max : 100 category:'Noise';

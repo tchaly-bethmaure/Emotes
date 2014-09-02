@@ -20,6 +20,8 @@ global {
 	bool payoffEmo;
 	float probaEvolution;
 	float probaMutation;
+	bool bMimicIdeal;
+	bool bMimicGuilt;
 	// -> mutation (or noise)
 	float idealityNoise;
 	float guiltNoise;

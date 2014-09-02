@@ -72,6 +72,7 @@ def do_your_job(full_path_csv_file):
 				statistics[key][type_stat][stat_element] = val
 
 	# statistics computation
+	first_it_x = True # a little trick to bypass the -9999 and 9999 min / max
 	for record in tab:
 		## number of agent of the record
 		number_of_agent = 0
@@ -79,7 +80,9 @@ def do_your_job(full_path_csv_file):
 			number_of_agent += float(record[key_value_of_data[9]][key_value_of_data[91]]) 
 		if key_value_of_data[92] in record[key_value_of_data[9]].keys():
 			number_of_agent += float(record[key_value_of_data[9]][key_value_of_data[92]]) 
-
+		# fix bug ideal key = ''
+		if number_of_agent == 0:
+			number_of_agent = record[key_value_of_data[9]][record[key_value_of_data[9]].keys()[0]]
 		## absolute strategy of record
 		if record[key_value_of_data[1]]>record[key_value_of_data[2]]:
 			strategy = 1
@@ -90,20 +93,30 @@ def do_your_job(full_path_csv_file):
 		#### guilt ####	
 		omega = sum(record[key_value_of_data[4]].values())
 		## count		
+		first_it_y = True
 		for guilt_lvl, guilt_weight in record[key_value_of_data[4]].iteritems():
+			guilt_lvl = float(guilt_lvl)
+			guilt_weight = float(guilt_weight)		
+			if first_it_y:
+				# We set guilt level default min and max value as the first iteration of the map
+				statistics[strategy][1][0] = guilt_lvl
+				statistics[strategy][1][1] = guilt_lvl
+				first_it_y = False
 			### guilt scale ###
 			## min
-			if float(guilt_lvl) < statistics[strategy][1][0]:
-				statistics[strategy][1][0] = float(guilt_lvl)
+			if guilt_lvl < statistics[strategy][1][0]:
+				statistics[strategy][1][0] = guilt_lvl
 			## max
-			if float(guilt_lvl) > statistics[strategy][1][1]:
-				statistics[strategy][1][1] = float(guilt_lvl)
+			if guilt_lvl > statistics[strategy][1][1]:
+				statistics[strategy][1][1] = guilt_lvl
 			## sum
-			statistics[strategy][1][3] += float(guilt_lvl)*(float(guilt_weight)/omega)
+			statistics[strategy][1][3] += (guilt_lvl*guilt_weight)/omega
 			## count
-			statistics[strategy][1][5] += (float(guilt_weight)/omega)
-
-		#### gain ####
+			statistics[strategy][1][5] += guilt_weight/omega
+		#### gain ####		
+		if first_it_x:
+			statistics[strategy][0][0] = float(record[key_value_of_data[6]])
+			statistics[strategy][0][1] = float(record[key_value_of_data[7]])
 		## min
 		if float(record[key_value_of_data[6]]) < statistics[strategy][0][0]:
 			statistics[strategy][0][0] = float(record[key_value_of_data[6]])
@@ -111,7 +124,7 @@ def do_your_job(full_path_csv_file):
 		if float(record[key_value_of_data[7]]) > statistics[strategy][0][1]:
 			statistics[strategy][0][1] = float(record[key_value_of_data[7]])
 		## sum
-		statistics[strategy][0][3] +=  float(record[key_value_of_data[5]])
+		statistics[strategy][0][3] += float(record[key_value_of_data[5]])
 		## count
 		statistics[strategy][0][5] += number_of_agent
 
@@ -126,6 +139,8 @@ def do_your_job(full_path_csv_file):
 		statistics[strategy][2][3] += float(record[key_value_of_data[8]])
 		## count
 		statistics[strategy][2][5] += 1
+
+		first_it_x = False
 	for key in [1,2]:
 		for stat_type in computed_stat.keys():
 			if(statistics[key][stat_type][5] != 0):
@@ -136,7 +151,6 @@ def do_your_job(full_path_csv_file):
 			else:
 				statistics[key][stat_type][2] = 0
 				statistics[key][stat_type][4] = 0
-
 	path = "" # no need to specify any path yet.
 	from pygal.style import LightStyle
 
@@ -148,21 +162,21 @@ def do_your_job(full_path_csv_file):
 	gain_chart.add('Mean', [statistics[1][0][2], statistics[2][0][2]])
 	gain_chart.add('Max',  [statistics[1][0][1], statistics[2][0][1]])
 	#gain_chart.add('Std-dev',  [statistics[1][0][4], statistics[2][0][4]])
-	gain_chart.render_to_file(path+"/gains_with_"+file_name+".svg")
+	gain_chart.render_to_file(path+"gains_with_"+file_name+".svg")
 
 	gain_chart = pygal.Bar(fill=True, interpolate='cubic', style=LightStyle)
 	gain_chart.title = 'Sum of gains knowing strategy types'
 	gain_chart.x_labels = map(str, ['Cooperative ('+str(int(statistics[1][0][5]))+' agt)','Non-cooperative ('+str(int(statistics[2][0][5]))+' agt)','Both ('+str(int(statistics[1][0][5])+int(statistics[1][0][5]))+' agt)'])
 	gain_chart.add("", [statistics[1][0][3], statistics[2][0][3], statistics[1][0][3]+statistics[2][0][3]])
-	gain_chart.render_to_file(path+"/sum_gains_with_"+file_name+".svg")
+	gain_chart.render_to_file(path+"sum_gains_with_"+file_name+".svg")
 
 	# Strat dominance chart
 	strat_chart = pygal.Pie(fill=True, interpolate='cubic', style=LightStyle)
-	strat_chart.title = 'Strategy who prevail'
+	strat_chart.title = 'Strategy which prevail'
 	strat_chart.x_labels = map(str, ["Strategy prevailance among all configurations"])
 	strat_chart.add('Absolute cooperation',  statistics[1][0][5])
 	strat_chart.add('Absolute defection',  statistics[2][0][5])
-	strat_chart.render_to_file(path+"/strat_prev_with_"+file_name+".svg")
+	strat_chart.render_to_file(path+"strat_prev_with_"+file_name+".svg")
 
 	# Guilt repartition : min max mean... knowing C and D	
 	guilt_rep_chart = pygal.Bar(fill=True, interpolate='cubic', style=LightStyle)
@@ -172,7 +186,7 @@ def do_your_job(full_path_csv_file):
 	guilt_rep_chart.add('Mean', [statistics[1][1][2],statistics[2][1][2], (statistics[1][1][2] + statistics[2][1][2]) / 2])
 	guilt_rep_chart.add('Max',  [statistics[1][1][1],statistics[2][1][1],max(statistics[1][1][1],statistics[2][1][1])])
 	guilt_rep_chart.add('Std-dev',  [statistics[1][1][4], statistics[2][1][4], (statistics[1][1][4] + statistics[2][1][4]) / 2])
-	guilt_rep_chart.render_to_file(path+"/guilt_rep_with_"+file_name+".svg")
+	guilt_rep_chart.render_to_file(path+"guilt_rep_with_"+file_name+".svg")
 
 	# Iteration chart
 	iter_chart = pygal.Bar(fill=True, interpolate='cubic', style=LightStyle)
@@ -181,7 +195,7 @@ def do_your_job(full_path_csv_file):
 	iter_chart.add('Min',  [ min([statistics[1][2][0], statistics[2][2][0]]) ] )
 	iter_chart.add('Mean', [ (statistics[1][2][2] + statistics[2][2][2]) / 2 ] )
 	iter_chart.add('Max',  [ max(statistics[1][2][1], statistics[2][2][1]) ] )
-	iter_chart.render_to_file(path+"/iteration_chart_"+file_name+".svg")
+	iter_chart.render_to_file(path+"iteration_chart_"+file_name+".svg")
 
 # For now in sequential exp results in Pure strategy we have the following elements :
 ## 	Value::T R P S 		C::NumberOfCooperators		D::NbOfDefectors		IdealRepartition::[key1,key2,...]:[val1,val2]

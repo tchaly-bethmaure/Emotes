@@ -58,6 +58,8 @@ experiment expPureStratV8 type: gui {
 	parameter 'Nb Agents will evolve' 	var: nbAgentsEvol <- 5 min: 1 max: 100 category: 'Replicator dynamic';
 	parameter 'Emotional payoffs' 		var: payoffEmo <- true category: 'Replicator dynamic';
 	parameter 'Replication Probability' var: probaEvolution <- 30.0 category: 'Replicator dynamic';
+	parameter 'Mimic ideal' var: bMimicIdeal <- false category: 'Replicator dynamic';
+	parameter 'Mimic guilt' var: bMimicGuilt <- false category: 'Replicator dynamic';
 	//parameter 'Mutation Probability' 	var: probaMutation <- 30.0 category: 'Replicator dynamic';
 	
 	parameter 'Make some noise' var:bNoise <- false category:'Noise';
@@ -164,7 +166,7 @@ experiment expPureStratV8 type: gui {
 			}
 		}
 		
-		display Space type: opengl{
+		/*display Space type: opengl{
 			graphics 'G' {
 				int j <- 0;
 				int facteur <- 20;
@@ -177,7 +179,7 @@ experiment expPureStratV8 type: gui {
 						draw string(int(peoplePureStrategy(i).sumPayoffs)) at:{((i mod 9)*facteur),j*facteur - 4} color:rgb('black') style:bold;				
 				}
 			}
-		}
+		}*/
 	}
 }
 

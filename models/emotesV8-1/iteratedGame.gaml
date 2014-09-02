@@ -88,9 +88,16 @@ species iterated_game_instance {
 		sumPayOff_instance <- sum((agents of_generic_species people) collect (each.sumPayoffs)); 
 	}
 	
-	reflex evolve when: ((evolutionMode = 'Replicator dynamic') and (cycle mod stepEvol = 0)) {		
-		string newStrat <- getReplicationChoice();
-		ask peoplePureStrategy{ do replicate(newStrat); }
+	reflex evolve when: ((evolutionMode = 'Replicator dynamic') and (cycle mod stepEvol = 0)) {
+		peoplePureStrategy p <- nil;
+		create peoplePureStrategy{ p <- self; } 
+		p.strategy <- getStratToReplicate();
+		p.guiltAversion <- (bMimicGuilt=true)?getGuiltToReplicate():0;
+		p.idealMode <- (bMimicIdeal=true)?getIdealityToReplicate():"";
+		
+		ask peoplePureStrategy{ do replicate(p); }
+		
+		
 	}
 	
 	reflex noise when: (evolutionMode = 'Replicator dynamic' and bNoise = true) {		
@@ -114,15 +121,27 @@ species iterated_game_instance {
 	}
 	
 	// Faction of strategy i at time t, where t is (for now the current tick)
-	float getStrategyProportion(string i){
-		return length(peoplePureStrategy where (each.strategy = i))/ length(peoplePureStrategy);
+	float getStrategyProportion(string str){
+		return length(peoplePureStrategy where (each.strategy = str))/ length(peoplePureStrategy);
+	}
+	float getGuiltProportion(float i) {
+		return length(peoplePureStrategy where (each.guiltAversion = i))/ length(peoplePureStrategy);
+	}
+	float getIdealProportion(string str) {
+		return length(peoplePureStrategy where (each.idealMode = str))/ length(peoplePureStrategy);
 	}
 	
 	// Get the fitness of the strategy i of the system (should be function of time)
-	float getFitnessOfStrategyPerAgt(string i){
+	float getFitnessOfStrategyPerAgt(string str){
 		// Is described as : the fitness of strategy i at time t
 		// We assume that fitness of i at time ti is mean gain by strategy at time t
-		return mean(peoplePureStrategy where (each.strategy = i) collect (each.stepPayoff));
+		return mean(peoplePureStrategy where (each.strategy = str) collect (each.stepPayoff));
+	}
+	float getFitnessOfGuiltPerAgt(float i){
+		return mean(peoplePureStrategy where (each.guiltAversion = i) collect (each.stepPayoff));
+	}
+	float getFitnessOfIdealPerAgt(string str){
+		return mean(peoplePureStrategy where (each.idealMode = str) collect (each.stepPayoff));
 	}
 	
 	// Get the average fitness of the system (should be function of time)
@@ -134,7 +153,7 @@ species iterated_game_instance {
 	// For each strategy i: si(t+1) = xi(t) fi(t) / f(t), 
 	// where xi(t) is the fraction of strategy i in the population at time t, fi(t) is the fitness of strategy i at time t, 
 	// and f(t) is the average fitness in the population.
-	string getReplicationChoice {
+	string getStratToReplicate { 
 		string strategyToChoose <- "C";
 		float fitnessOfSystemPerAgt <- fitnessOfSystemPerAgt(); // Sum(Payoffs) of all agent
 		
@@ -142,12 +161,48 @@ species iterated_game_instance {
 		float fitnessC <- (getStrategyProportion("C") * getFitnessOfStrategyPerAgt("C")) / fitnessOfSystemPerAgt;
 		float fitnessD <- (getStrategyProportion("D") * getFitnessOfStrategyPerAgt("D")) / fitnessOfSystemPerAgt;
 		
-		// fitnessC <- getStrategyProportion("C") * (getFitnessOfStrategy("C") - fitnessOfSystem);
-		// fitnessD <- getStrategyProportion("D") * (getFitnessOfStrategy("D") - fitnessOfSystem);
+		// fitnessC <- getStrategyProportion("C") * (getFitnessOfStrategy("C") - fitnessOfSystem); ?
+		// fitnessD <- getStrategyProportion("D") * (getFitnessOfStrategy("D") - fitnessOfSystem); ?
 		
 		// The agent choose the fraction which have the highest value.
 		if(fitnessC > fitnessD){ return "C"; }
 		else{if(fitnessC < fitnessD){ return "D"; }else{ return rnd(1)=1?"C":"D"; }}
+	}
+	
+	string getIdealityToReplicate {
+		string idealityToChoose <- "";
+		float fitnessOfSystemPerAgt <- fitnessOfSystemPerAgt();
+		list<string> ideals <- ["Rawls", "Harsanyi"];
+		
+		// Fitness of population who adopt Rawls or Harsanyi
+		float fitnessRawls <- (getIdealProportion(ideals[0]) * getFitnessOfIdealPerAgt(ideals[0])) / fitnessOfSystemPerAgt;
+		float fitnessHarsanyi <- (getIdealProportion(ideals[0])* getFitnessOfIdealPerAgt(ideals[0])) / fitnessOfSystemPerAgt;
+		
+		if(fitnessRawls > fitnessRawls){ return ideals[0]; }
+		else{if(fitnessRawls < fitnessRawls){ return ideals[1]; }else{ return rnd(1)=1?ideals[0]:ideals[1]; }}
+		
+		return;
+	}
+	
+	float getGuiltToReplicate {
+			list<peoplePureStrategy> lstPpl <- peoplePureStrategy collect (each.guiltAversion);
+			// Introducing random fitness choice when fitness are equal
+			lstPpl <- shuffle(lstPpl);
+			float fitnessOfSystemPerAgt <- fitnessOfSystemPerAgt();
+			
+			// Init values : we randomly take one agent as reference
+			peoplePureStrategy p <- one_of(peoplePureStrategy);
+			float fitnessScoreOfGuilt <- (getGuiltProportion(p.guiltAversion) * getFitnessOfGuiltPerAgt(p.guiltAversion)) / fitnessOfSystemPerAgt;
+			float optimGuilt <- p.guiltAversion;			
+			loop p over: lstPpl{
+				float tempFitnessScoreOfGuilt <- (getGuiltProportion(p.guiltAversion) * getFitnessOfGuiltPerAgt(p.guiltAversion)) / fitnessOfSystemPerAgt;
+				if(fitnessScoreOfGuilt < tempFitnessScoreOfGuilt){
+					fitnessScoreOfGuilt <- tempFitnessScoreOfGuilt;
+					optimGuilt <- p.guiltAversion;
+				}
+			}
+			
+			return optimGuilt;
 	}
 	
 	action displayGame {
@@ -166,7 +221,7 @@ species iterated_game_instance {
 				", with GuiltAversion from " + (peoples_in_instance min_of (each.guiltAversion)) +
 				" to " + (peoples_in_instance max_of (each.guiltAversion));
 	}
-		
+		 
 	
 	// PeopleCreation taking in account the peopleStrategy type of the game/simulation
 	action createPeople(string p_strat, list<float> guiltDistribution){

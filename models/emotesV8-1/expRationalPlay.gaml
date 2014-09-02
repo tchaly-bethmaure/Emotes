@@ -1,10 +1,10 @@
 /**
- *  expMain
- *  Author: bgaudou
- *  Description: 
+ *  expRationalPlay
+ *  Author: cberthaume
+ *  Description: peopleRation are playing a rational game without history learning
  */
 
-model expFictitiousPlayV8
+model expRationalPlay
 
 import "main.gaml"
 import "iteratedGame.gaml"
